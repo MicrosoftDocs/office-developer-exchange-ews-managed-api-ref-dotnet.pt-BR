@@ -1,0 +1,248 @@
+<Type Name="ChangeHighlights" FullName="Microsoft.Exchange.WebServices.Data.ChangeHighlights">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7eccdf7d4ce3c663ac83c66483b56c7348a7386f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621737" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ChangeHighlights : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChangeHighlights extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChangeHighlights&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ChangeHighlights sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="5ff57-101">Encapsula informações sobre alterações a uma solicitação de reunião.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5ff57-101">Encapsulates information on changes to a meeting request.</span>
+      </span>
+      <span data-ttu-id="5ff57-102">O <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="5ff57-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.ChangeHighlights" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5ff57-103">Obtém a data de término antiga e a hora da reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-103">Gets the old end date and time of the meeting.</span>
+          </span>
+          <span data-ttu-id="5ff57-104">O <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5ff57-105">A data de término antiga e a hora da reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-105">The old end date and time of the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasEndTimeChanged">
+      <MemberSignature Language="C#" Value="public bool HasEndTimeChanged { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasEndTimeChanged" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasEndTimeChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasEndTimeChanged { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5ff57-106">Verifica se a hora de término da reunião foi alterado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-106">Checks whether the end time of the meeting has changed.</span>
+          </span>
+          <span data-ttu-id="5ff57-107">O <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasEndTimeChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5ff57-108">
+            <b>true</b> se a hora de início foi alterado; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-108">
+              <b>true</b> if the start time has changed; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasLocationChanged">
+      <MemberSignature Language="C#" Value="public bool HasLocationChanged { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasLocationChanged" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasLocationChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasLocationChanged { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5ff57-109">Verifica se o local para a reunião foi alterada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-109">Checks whether the location for the meeting has changed.</span>
+          </span>
+          <span data-ttu-id="5ff57-110">O <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasLocationChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5ff57-111">
+            <b>true</b> se não tiver alterado o local; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-111">
+              <b>true</b> if the location has changed; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasStartTimeChanged">
+      <MemberSignature Language="C#" Value="public bool HasStartTimeChanged { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasStartTimeChanged" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasStartTimeChanged As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasStartTimeChanged { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5ff57-112">Verifica se a hora de início para a reunião foi alterada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-112">Checks whether the start time for the meeting has changed.</span>
+          </span>
+          <span data-ttu-id="5ff57-113">O <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.HasStartTimeChanged" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5ff57-114">
+            <b>true</b> se a hora de início foi alterado; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-114">
+              <b>true</b> if the start time has changed; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5ff57-115">Obtém o antigo local da reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-115">Gets the old location of the meeting.</span>
+          </span>
+          <span data-ttu-id="5ff57-116">O <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-116">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5ff57-117">O antigo local para a reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-117">The old location for the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="5ff57-118">Obtém o antigo iniciar data e hora da reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-118">Gets the old start date and time of the meeting.</span>
+          </span>
+          <span data-ttu-id="5ff57-119">O <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-119">The <see cref="P:Microsoft.Exchange.WebServices.Data.ChangeHighlights.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="5ff57-120">O antigo iniciar data e hora da reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="5ff57-120">The old start date and time of the meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

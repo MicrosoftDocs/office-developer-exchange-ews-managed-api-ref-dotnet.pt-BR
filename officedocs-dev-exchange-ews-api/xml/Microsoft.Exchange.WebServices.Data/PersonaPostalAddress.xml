@@ -1,0 +1,676 @@
+<Type Name="PersonaPostalAddress" FullName="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="08e648eb11e3ae569db5f4e7de6d02d06934081b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621771" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PersonaPostalAddress : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PersonaPostalAddress extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PersonaPostalAddress&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PersonaPostalAddress sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="3be62-101">Contém informações de endereço postal contato associadas a uma pessoa.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3be62-101">Contains contact postal address information associated with a persona.</span>
+      </span>
+      <span data-ttu-id="3be62-102">O <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="3be62-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PersonaPostalAddress (string street, string city, string state, string country, string postalCode, string postOfficeBox, Microsoft.Exchange.WebServices.Data.LocationSource locationSource, string locationUri, string formattedAddress, double latitude, double longitude, double accuracy, double altitude, double altitudeAccuracy);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string street, string city, string state, string country, string postalCode, string postOfficeBox, valuetype Microsoft.Exchange.WebServices.Data.LocationSource locationSource, string locationUri, string formattedAddress, float64 latitude, float64 longitude, float64 accuracy, float64 altitude, float64 altitudeAccuracy) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PersonaPostalAddress(System::String ^ street, System::String ^ city, System::String ^ state, System::String ^ country, System::String ^ postalCode, System::String ^ postOfficeBox, Microsoft::Exchange::WebServices::Data::LocationSource locationSource, System::String ^ locationUri, System::String ^ formattedAddress, double latitude, double longitude, double accuracy, double altitude, double altitudeAccuracy);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="street" Type="System.String" />
+        <Parameter Name="city" Type="System.String" />
+        <Parameter Name="state" Type="System.String" />
+        <Parameter Name="country" Type="System.String" />
+        <Parameter Name="postalCode" Type="System.String" />
+        <Parameter Name="postOfficeBox" Type="System.String" />
+        <Parameter Name="locationSource" Type="Microsoft.Exchange.WebServices.Data.LocationSource" />
+        <Parameter Name="locationUri" Type="System.String" />
+        <Parameter Name="formattedAddress" Type="System.String" />
+        <Parameter Name="latitude" Type="System.Double" />
+        <Parameter Name="longitude" Type="System.Double" />
+        <Parameter Name="accuracy" Type="System.Double" />
+        <Parameter Name="altitude" Type="System.Double" />
+        <Parameter Name="altitudeAccuracy" Type="System.Double" />
+      </Parameters>
+      <Docs>
+        <param name="street">
+          <span data-ttu-id="3be62-103">O endereço.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-103">The street address.</span>
+          </span>
+        </param>
+        <param name="city">
+          <span data-ttu-id="3be62-104">O valor de cidade.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-104">The city value.</span>
+          </span>
+        </param>
+        <param name="state">
+          <span data-ttu-id="3be62-105">O valor de estado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-105">The state value.</span>
+          </span>
+        </param>
+        <param name="country">
+          <span data-ttu-id="3be62-106">O valor de país/região.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-106">The country/region value.</span>
+          </span>
+        </param>
+        <param name="postalCode">
+          <span data-ttu-id="3be62-107">O valor de CEP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-107">The postal code value.</span>
+          </span>
+        </param>
+        <param name="postOfficeBox">
+          <span data-ttu-id="3be62-108">A caixa postal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-108">The post office box.</span>
+          </span>
+        </param>
+        <param name="locationSource">
+          <span data-ttu-id="3be62-109">A origem local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-109">The location source.</span>
+          </span>
+        </param>
+        <param name="locationUri">
+          <span data-ttu-id="3be62-110">O local do identificador de recurso uniforme (URI).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-110">The location Uniform Resource Identifier (URI).</span>
+          </span>
+        </param>
+        <param name="formattedAddress">
+          <span data-ttu-id="3be62-111">O endereço a ser exibido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-111">The street address to be displayed.</span>
+          </span>
+        </param>
+        <param name="latitude">
+          <span data-ttu-id="3be62-112">Latitude o local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-112">The location latitude.</span>
+          </span>
+        </param>
+        <param name="longitude">
+          <span data-ttu-id="3be62-113">Longitude do local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-113">The location longitude.</span>
+          </span>
+        </param>
+        <param name="accuracy">
+          <span data-ttu-id="3be62-114">A precisão de local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-114">The location accuracy.</span>
+          </span>
+        </param>
+        <param name="altitude">
+          <span data-ttu-id="3be62-115">A altitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-115">The location altitude.</span>
+          </span>
+        </param>
+        <param name="altitudeAccuracy">
+          <span data-ttu-id="3be62-116">A precisão de altitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-116">The location altitude accuracy.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="3be62-117">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-117">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" /> class.</span>
+          </span>
+          <span data-ttu-id="3be62-118">O <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-118">The <see cref="M:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Exchange.WebServices.Data.LocationSource,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Accuracy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Accuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Accuracy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property Accuracy As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Accuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-119">Obtém ou define um valor que especifica o grau de precisão a latitude e longitude.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-119">Gets or sets a value specifying the degree of accuracy of the latitude and longitude.</span>
+          </span>
+          <span data-ttu-id="3be62-120">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-120">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Accuracy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-121">A precisão de local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-121">The location accuracy.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Altitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Altitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Altitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Altitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Altitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-122">Obtém ou define a altitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-122">Gets or sets the location altitude.</span>
+          </span>
+          <span data-ttu-id="3be62-123">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-123">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Altitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-124">A altitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-124">The location altitude.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AltitudeAccuracy">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; AltitudeAccuracy { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; AltitudeAccuracy" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" />
+      <MemberSignature Language="VB.NET" Value="Public Property AltitudeAccuracy As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; AltitudeAccuracy { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-125">Obtém ou define a um valor que especifica o grau de precisão a altitude.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-125">Gets or sets the a value specifying the degree of accuracy of the altitude.</span>
+          </span>
+          <span data-ttu-id="3be62-126">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-126">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.AltitudeAccuracy" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-127">A precisão de altitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-127">The location altitude accuracy.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="City">
+      <MemberSignature Language="C#" Value="public string City { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string City" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" />
+      <MemberSignature Language="VB.NET" Value="Public Property City As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ City { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-128">Obtém ou define a cidade.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-128">Gets or sets the city.</span>
+          </span>
+          <span data-ttu-id="3be62-129">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.City" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-130">O nome da cidade.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-130">The city name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Country">
+      <MemberSignature Language="C#" Value="public string Country { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Country" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" />
+      <MemberSignature Language="VB.NET" Value="Public Property Country As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Country { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-131">Obtém ou define o país/região.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-131">Gets or sets the country/region.</span>
+          </span>
+          <span data-ttu-id="3be62-132">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-132">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Country" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-133">O nome do país/região.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-133">The country/region name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormattedAddress">
+      <MemberSignature Language="C#" Value="public string FormattedAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FormattedAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property FormattedAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FormattedAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-134">Obtém ou define o endereço a ser exibido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-134">Gets or sets the street address to be displayed.</span>
+          </span>
+          <span data-ttu-id="3be62-135">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-135">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.FormattedAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-136">O endereço a ser exibido.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-136">The street address to be displayed.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Latitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Latitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Latitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Latitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Latitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-137">Obtém ou define um valor que indica o latitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-137">Gets or sets a value that indicates the location latitude.</span>
+          </span>
+          <span data-ttu-id="3be62-138">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-138">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Latitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-139">Um valor indicando o latitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-139">A value indicating the location latitude.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Longitude">
+      <MemberSignature Language="C#" Value="public Nullable&lt;double&gt; Longitude { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;float64&gt; Longitude" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" />
+      <MemberSignature Language="VB.NET" Value="Public Property Longitude As Nullable(Of Double)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;double&gt; Longitude { Nullable&lt;double&gt; get(); void set(Nullable&lt;double&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Double&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-140">Obtém ou define um valor indicando o longitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-140">Gets or sets a value indicating the location longitude.</span>
+          </span>
+          <span data-ttu-id="3be62-141">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-141">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Longitude" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-142">Um valor indicando o longitude local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-142">A value indicating the location longitude.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalCode">
+      <MemberSignature Language="C#" Value="public string PostalCode { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostalCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostalCode As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostalCode { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-143">Obtém ou define o código postal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-143">Gets or sets the postal code.</span>
+          </span>
+          <span data-ttu-id="3be62-144">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-144">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostalCode" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-145">O código de endereçamento postal, ou CEP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-145">The postal code.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostOfficeBox">
+      <MemberSignature Language="C#" Value="public string PostOfficeBox { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PostOfficeBox" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" />
+      <MemberSignature Language="VB.NET" Value="Public Property PostOfficeBox As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PostOfficeBox { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-146">Obtém ou define o número da caixa postal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-146">Gets or sets the post office box number.</span>
+          </span>
+          <span data-ttu-id="3be62-147">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-147">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.PostOfficeBox" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-148">O número de caixa postal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-148">The post office box number.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Source">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.LocationSource Source { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.LocationSource Source" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" />
+      <MemberSignature Language="VB.NET" Value="Public Property Source As LocationSource" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::LocationSource Source { Microsoft::Exchange::WebServices::Data::LocationSource get(); void set(Microsoft::Exchange::WebServices::Data::LocationSource value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LocationSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-149">Obtém ou define a origem do endereço postal da pessoa.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-149">Gets or sets the origin of the persona postal address.</span>
+          </span>
+          <span data-ttu-id="3be62-150">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-150">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Source" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-151">A fonte de endereço postal da pessoa.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-151">The persona postal address source.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="State">
+      <MemberSignature Language="C#" Value="public string State { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string State" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" />
+      <MemberSignature Language="VB.NET" Value="Public Property State As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ State { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-152">Obtém ou define o estado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-152">Gets or sets the state.</span>
+          </span>
+          <span data-ttu-id="3be62-153">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-153">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.State" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-154">O nome do estado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-154">The state name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Street">
+      <MemberSignature Language="C#" Value="public string Street { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Street" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" />
+      <MemberSignature Language="VB.NET" Value="Public Property Street As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Street { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-155">Obtém ou define o nome da rua.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-155">Gets or sets the street name.</span>
+          </span>
+          <span data-ttu-id="3be62-156">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-156">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Street" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-157">O nome da rua.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-157">The street name.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public string Type { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" />
+      <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-158">Obtém ou define o tipo de endereço postal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-158">Gets or sets the postal address type.</span>
+          </span>
+          <span data-ttu-id="3be62-159">Por exemplo, residencial ou comercial.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-159">For example, home or business.</span>
+          </span>
+          <span data-ttu-id="3be62-160">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-160">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Type" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-161">O tipo de endereço postal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-161">The type of postal address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="public string Uri { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Uri" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" />
+      <MemberSignature Language="VB.NET" Value="Public Property Uri As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Uri { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="3be62-162">Obtém ou define o identificador de recurso uniforme (URI) local.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-162">Gets or sets the location Uniform Resource Identifier (URI).</span>
+          </span>
+          <span data-ttu-id="3be62-163">O <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-163">The <see cref="P:Microsoft.Exchange.WebServices.Data.PersonaPostalAddress.Uri" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="3be62-164">A localização do URI.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="3be62-164">The location URI.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

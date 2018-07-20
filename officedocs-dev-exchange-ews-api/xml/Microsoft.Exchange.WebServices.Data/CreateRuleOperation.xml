@@ -1,0 +1,186 @@
+<Type Name="CreateRuleOperation" FullName="Microsoft.Exchange.WebServices.Data.CreateRuleOperation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3defb1ba4da4191f7df77e9eef5463858b4fc0b1" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621703" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class CreateRuleOperation : Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CreateRuleOperation extends Microsoft.Exchange.WebServices.Data.RuleOperation" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.CreateRuleOperation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CreateRuleOperation&#xA;Inherits RuleOperation" />
+  <TypeSignature Language="C++ CLI" Value="public ref class CreateRuleOperation sealed : Microsoft::Exchange::WebServices::Data::RuleOperation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.RuleOperation</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="c9b56-101">Representa uma operação para criar uma regra de caixa de entrada.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c9b56-101">Represents an operation to create an Inbox rule.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="c9b56-102">
+        <para>Regras de caixa de entrada são conjuntos de <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> e associado <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> que permitir que os clientes automaticamente organizar, categorizar e agem nas mensagens, como as mensagens são entregues a uma pasta.</para>
+        <para>Essa classe deriva o <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> classe.</para>
+        <para>Quando uma regra é criada, ele está armazenado no servidor Exchange. Quando uma mensagem é recebida, o servidor Exchange avalia a mensagem e determina se ela atendeu qualquer regra <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />. Se ele tiver sido definido, o Exchange server, em seguida, processará a mensagem de acordo com a regra <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. Por exemplo, uma regra pode ser criada para exigir que qualquer email de entrada que contém uma determinada cadeia de caracteres no campo assunto automaticamente ser transferido para uma pasta predeterminada.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c9b56-102">
+          <para>Inbox rules are sets of <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> and associated <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> that enable clients to automatically organize, categorize, and act on messages as the messages are delivered to a folder.</para>
+          <para>This class derives from the <see cref="T:Microsoft.Exchange.WebServices.Data.RuleOperation" /> class.</para>
+          <para>When a rule is created, it is stored on the Exchange server. When a message arrives, the Exchange server evaluates the message and determines whether it has fulfilled any rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" />. If it has, the Exchange server will then process the message according to the rule <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" />. For example, a rule can be created to require that any incoming mail that contains a certain string in the subject be automatically moved to a predetermined folder.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+    <example>
+      <span data-ttu-id="c9b56-103">
+        <para>O exemplo a seguir cria uma regra com o nome "MoveInterestingToJunk". A regra tem uma <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> propriedade que especifica que sempre que uma mensagem de email chega que tem a cadeia de caracteres "Interessante" na linha assunto, a mensagem deve ser movido para a pasta Lixo eletrônico. A regra é carregada no servidor no serviço. Linha UpdateInboxRules (novo RuleOperation [{createOperation}, true).</para>
+        <code>// Create an Inbox rule.
+// If "Interesting" is in the message's subject line, move it into the Junk E-mail folder.
+Rule newRule = new Rule();
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.Priority = 1;
+newRule.IsEnabled = true;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="c9b56-103">
+          <para>The following example creates a rule with the name "MoveInterestingToJunk". The rule has a <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> property that specifies that whenever an e-mail message arrives that has the string "Interesting" in the subject line, the message is to be moved to the Junk E-mail folder. The rule is uploaded to the server in the service.UpdateInboxRules(new RuleOperation[] { createOperation }, true) line.</para>
+          <code>// Create an Inbox rule.
+// If "Interesting" is in the message's subject line, move it into the Junk E-mail folder.
+Rule newRule = new Rule();
+newRule.DisplayName = "MoveInterestingToJunk";
+newRule.Priority = 1;
+newRule.IsEnabled = true;
+newRule.Conditions.ContainsSubjectStrings.Add("Interesting");
+newRule.Actions.MoveToFolder = WellKnownFolderName.JunkEmail;
+
+// Create the CreateRuleOperation.
+CreateRuleOperation createRuleOperation = new CreateRuleOperation(newRule);
+service.UpdateInboxRules(new RuleOperation[] { createRuleOperation }, true);</code>
+        </span>
+      </span>
+    </example>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateRuleOperation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateRuleOperation();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="c9b56-104">Inicializa uma nova instância da classe CreateRuleOperation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-104">Initializes a new instance of the CreateRuleOperation class.</span>
+          </span>
+        </summary>
+        <remarks>
+          <span data-ttu-id="c9b56-105">
+            <para>O método CreateRuleOperation cria um novo <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> em uma caixa de correio específica.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-105">
+              <para>The CreateRuleOperation method creates a new <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> in a specific mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateRuleOperation (Microsoft.Exchange.WebServices.Data.Rule rule);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.Rule rule) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.#ctor(Microsoft.Exchange.WebServices.Data.Rule)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CreateRuleOperation(Microsoft::Exchange::WebServices::Data::Rule ^ rule);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="rule" Type="Microsoft.Exchange.WebServices.Data.Rule" />
+      </Parameters>
+      <Docs>
+        <param name="rule">
+          <span data-ttu-id="c9b56-106">Uma instância do <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> classe deve ser criado e enviado ao servidor de mensagens.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-106">An instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> class is to be created and sent to the messaging server.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="c9b56-107">Inicializa uma nova instância da classe CreateRuleOperation com a regra especificada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-107">Initializes a new instance of the CreateRuleOperation class with the specified rule.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rule">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Rule Rule { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Rule Rule" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.CreateRuleOperation.Rule" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rule As Rule" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Rule ^ Rule { Microsoft::Exchange::WebServices::Data::Rule ^ get(); void set(Microsoft::Exchange::WebServices::Data::Rule ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Rule</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="c9b56-108">Obtém ou define a regra a ser criado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-108">Gets or sets the rule to be created.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="c9b56-109">A regra criada recentemente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-109">The newly created rule.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="c9b56-110">
+            <para>O <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> contém o <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> e <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> a serem tomadas quando uma mensagem de email chega em uma caixa de correio.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="c9b56-110">
+              <para>The <see cref="T:Microsoft.Exchange.WebServices.Data.Rule" /> contains the <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Conditions" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.Rule.Actions" /> to be taken when an e-mail message arrives in a mailbox.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

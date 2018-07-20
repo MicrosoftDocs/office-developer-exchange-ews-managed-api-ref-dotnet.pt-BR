@@ -1,0 +1,431 @@
+<Type Name="MeetingMessage" FullName="Microsoft.Exchange.WebServices.Data.MeetingMessage">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b01951979b25480e41f181e306c5e45438736a35" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622428" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MeetingMessage : Microsoft.Exchange.WebServices.Data.EmailMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingMessage extends Microsoft.Exchange.WebServices.Data.EmailMessage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <TypeSignature Language="VB.NET" Value="Public Class MeetingMessage&#xA;Inherits EmailMessage" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingMessage : Microsoft::Exchange::WebServices::Data::EmailMessage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.EmailMessage</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+      <span data-ttu-id="1bee9-101">Representa uma mensagem de reuniões.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1bee9-101">Represents a meeting-related message.</span>
+      </span>
+      <span data-ttu-id="1bee9-102">Propriedades que estão disponíveis em mensagens de reunião são definidas na classe MeetingMessageSchema.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="1bee9-102">Properties that are available on meeting messages are defined in the MeetingMessageSchema class.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AssociatedAppointmentId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ItemId AssociatedAppointmentId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.ItemId AssociatedAppointmentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.AssociatedAppointmentId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssociatedAppointmentId As ItemId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ItemId ^ AssociatedAppointmentId { Microsoft::Exchange::WebServices::Data::ItemId ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ItemId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-103">Obtém o identificador do compromisso associado com a mensagem de reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-103">Gets the identifier of the appointment that is associated with the meeting message.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-104">A identificação do compromisso associado com a mensagem de reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-104">The ID of the appointment that is associated with the meeting message.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.MeetingMessage Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.MeetingMessage Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As MeetingMessage" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::MeetingMessage ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1bee9-105">O serviço usar para ligar para a mensagem de reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-105">The service to use to bind to the meeting message.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="1bee9-106">O identificador da mensagem para vincular a reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-106">The identifier of the meeting message to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1bee9-107">Vincula a uma mensagem de reunião existente e carrega as suas propriedades de primeira classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-107">Binds to an existing meeting message and loads its first class properties.</span>
+          </span>
+          <span data-ttu-id="1bee9-108">Chamar esse método resulta em uma chamada para o Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-108">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1bee9-109">Uma instância da classe MeetingMessage que representa a mensagem de reunião que corresponde ao identificador especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-109">An instance of the MeetingMessage class that represents the meeting message that corresponds to the specified identifier.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.MeetingMessage Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.MeetingMessage Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingMessage.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::MeetingMessage ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingMessage</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="1bee9-110">O serviço usar para ligar para a mensagem de reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-110">The service to use to bind to the meeting message.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="1bee9-111">O identificador da mensagem para vincular a reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-111">The identifier of the meeting message to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="1bee9-112">O conjunto de propriedades para carregar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-112">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="1bee9-113">Vincula a uma mensagem de reunião existente e carrega o conjunto de propriedades especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-113">Binds to an existing meeting message and loads the specified set of properties.</span>
+          </span>
+          <span data-ttu-id="1bee9-114">Chamar esse método resulta em uma chamada para o Exchange Web Services (EWS).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-114">Calling this method results in a call to Exchange Web Services (EWS).</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="1bee9-115">Uma instância da classe MeetingMessage que representa a mensagem de reunião que corresponde ao identificador especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-115">An instance of the MeetingMessage class that represents the meeting message that corresponds to the specified identifier.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasBeenProcessed">
+      <MemberSignature Language="C#" Value="public bool HasBeenProcessed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasBeenProcessed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.HasBeenProcessed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HasBeenProcessed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasBeenProcessed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-116">Obtém um valor que indica se a mensagem de reunião foram processada pelo Exchange (ou seja, se Exchange observou a chegada de uma solicitação de reunião e tiver criado o item de reunião associado do calendário).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-116">Gets a value that indicates whether the meeting message has been processed by Exchange (that is, whether Exchange has noted the arrival of a meeting request and has created the associated meeting item in the calendar).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-117">
+            <b>true</b> se a mensagem de reunião foram processada pelo Exchange; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-117">
+              <b>true</b> if the meeting message has been processed by Exchange; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalDateTimeStamp">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ICalDateTimeStamp { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ICalDateTimeStamp" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.ICalDateTimeStamp" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalDateTimeStamp As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ICalDateTimeStamp { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-118">Obtém o propriedade DateTimeStamp iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-118">Gets the iCalendar DateTimeStamp property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-119">Propriedade DateTimeStamp iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-119">The iCalendar DateTimeStamp property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalRecurrenceId">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ICalRecurrenceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ICalRecurrenceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.ICalRecurrenceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalRecurrenceId As Nullable(Of DateTime)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; ICalRecurrenceId { Nullable&lt;DateTime&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-120">Obtém o propriedade RecurrenceId iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-120">Gets the iCalendar RecurrenceId property.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-121">Propriedade RecurrenceId iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-121">The iCalendar RecurrenceId property.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ICalUid">
+      <MemberSignature Language="C#" Value="public string ICalUid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ICalUid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.ICalUid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ICalUid As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ICalUid { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-122">Obtém o UID do iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-122">Gets the iCalendar UID.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-123">O UID do iCalendar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-123">The iCalendar UID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDelegated">
+      <MemberSignature Language="C#" Value="public bool IsDelegated { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDelegated" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsDelegated" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsDelegated As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsDelegated { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-124">Obtém um valor que indica se a mensagem de reunião é delegada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-124">Gets a value that indicates whether the meeting message is delegated.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-125">
+            <b>true</b> se a mensagem de reunião é delegada; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-125">
+              <b>true</b> if the meeting message is delegated; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOrganizer">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsOrganizer { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsOrganizer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsOrganizer" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOrganizer As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsOrganizer { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-126">Obtém se o remetente da mensagem é o organizador da reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-126">Gets whether the message sender is the meeting organizer.</span>
+          </span>
+          <span data-ttu-id="1bee9-127">O <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsOrganizer" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-127">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsOrganizer" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-128">
+            <b>true</b> se o remetente da mensagem for o organizador da reunião; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-128">
+              <b>true</b> if the message sender is the meeting organizer; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOutOfDate">
+      <MemberSignature Language="C#" Value="public bool IsOutOfDate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOutOfDate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.IsOutOfDate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOutOfDate As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsOutOfDate { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-129">Obtém um valor que indica se a mensagem de reunião está desatualizada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-129">Gets a value that indicates whether the meeting message is out of date.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-130">
+            <b>true</b> se a mensagem de reunião está desatualizada; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-130">
+              <b>true</b> if the meeting message is out of date; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.MeetingResponseType ResponseType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.MeetingResponseType ResponseType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingMessage.ResponseType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseType As MeetingResponseType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::MeetingResponseType ResponseType { Microsoft::Exchange::WebServices::Data::MeetingResponseType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingResponseType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="1bee9-131">Obtém o tipo de resposta que representa a mensagem de reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-131">Gets the type of response that the meeting message represents.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="1bee9-132">Um dos valores de enumeração MeetingResponseType que especifica o tipo de resposta que representa a mensagem de reunião.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="1bee9-132">One of the MeetingResponseType enumeration values that specifies the type of response that the meeting message represents.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,359 @@
+<Type Name="MeetingCancellation" FullName="Microsoft.Exchange.WebServices.Data.MeetingCancellation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="52134ba584822c3a6e88f13f3a249233076f9256" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622208" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MeetingCancellation : Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MeetingCancellation extends Microsoft.Exchange.WebServices.Data.MeetingMessage" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.MeetingCancellation" />
+  <TypeSignature Language="VB.NET" Value="Public Class MeetingCancellation&#xA;Inherits MeetingMessage" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MeetingCancellation : Microsoft::Exchange::WebServices::Data::MeetingMessage" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.MeetingMessage</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="a42b1-101">Representa uma reunião a mensagem de cancelamento.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a42b1-101">Represents a meeting cancellation message.</span>
+      </span>
+      <span data-ttu-id="a42b1-102">Propriedades disponíveis em mensagens de reunião são definidas na classe MeetingMessageSchema.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="a42b1-102">Properties available on meeting messages are defined in the MeetingMessageSchema class.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.MeetingCancellation Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.MeetingCancellation Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Bind (service As ExchangeService, id As ItemId) As MeetingCancellation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingCancellation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="a42b1-103">O serviço a usar para associar-se à reunião mensagem de cancelamento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-103">The service to use to bind to the meeting cancellation message.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="a42b1-104">O identificador do cancelamento de reunião a mensagem para vincular ao.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-104">The identifier of the meeting cancellation message to bind to.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a42b1-105">Os vínculos para o cancelamento de uma reunião existente de mensagens e carrega as suas propriedades de primeira classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-105">Binds to an existing meeting cancellation message and loads its first class properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a42b1-106">Uma instância da classe MeetingCancellation que representa o cancelamento da reunião mensagem correspondente ao identificador especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-106">An instance of the MeetingCancellation class that represents the meeting cancellation message corresponding to the specified identifier.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="a42b1-107">
+            <para>Chamar esse método resulta em uma chamada para o Exchange Web Services (EWS).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-107">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Bind">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Data.MeetingCancellation Bind (Microsoft.Exchange.WebServices.Data.ExchangeService service, Microsoft.Exchange.WebServices.Data.ItemId id, Microsoft.Exchange.WebServices.Data.PropertySet propertySet);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Data.MeetingCancellation Bind(class Microsoft.Exchange.WebServices.Data.ExchangeService service, class Microsoft.Exchange.WebServices.Data.ItemId id, class Microsoft.Exchange.WebServices.Data.PropertySet propertySet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Bind(Microsoft.Exchange.WebServices.Data.ExchangeService,Microsoft.Exchange.WebServices.Data.ItemId,Microsoft.Exchange.WebServices.Data.PropertySet)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Data::MeetingCancellation ^ Bind(Microsoft::Exchange::WebServices::Data::ExchangeService ^ service, Microsoft::Exchange::WebServices::Data::ItemId ^ id, Microsoft::Exchange::WebServices::Data::PropertySet ^ propertySet);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.MeetingCancellation</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+        <Parameter Name="id" Type="Microsoft.Exchange.WebServices.Data.ItemId" />
+        <Parameter Name="propertySet" Type="Microsoft.Exchange.WebServices.Data.PropertySet" />
+      </Parameters>
+      <Docs>
+        <param name="service">
+          <span data-ttu-id="a42b1-108">O serviço a usar para associar-se à reunião mensagem de cancelamento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-108">The service to use to bind to the meeting cancellation message.</span>
+          </span>
+        </param>
+        <param name="id">
+          <span data-ttu-id="a42b1-109">O identificador do cancelamento de reunião a mensagem para vincular ao.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-109">The identifier of the meeting cancellation message to bind to.</span>
+          </span>
+        </param>
+        <param name="propertySet">
+          <span data-ttu-id="a42b1-110">O conjunto de propriedades para carregar.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-110">The set of properties to load.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="a42b1-111">Os vínculos para o cancelamento de uma reunião existente de mensagens e carrega o conjunto de propriedades especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-111">Binds to an existing meeting cancellation message and loads the specified set of properties.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a42b1-112">Uma instância da classe MeetingCancellation que representa o cancelamento da reunião mensagem correspondente ao identificador especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-112">An instance of the MeetingCancellation class that represents the meeting cancellation message corresponding to the specified identifier.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="a42b1-113">
+            <para>Chamar esse método resulta em uma chamada para o Exchange Web Services (EWS).</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-113">
+              <para>Calling this method results in a call to Exchange Web Services (EWS).</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="End">
+      <MemberSignature Language="C#" Value="public DateTime End { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime End" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property End As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime End { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a42b1-114">Obtém a hora em que termina o compromisso cancelado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-114">Gets the time that the canceled appointment ends.</span>
+          </span>
+          <span data-ttu-id="a42b1-115">O <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-115">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.End" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a42b1-116">A hora de término do compromisso.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-116">The end time of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnhancedLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EnhancedLocation EnhancedLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnhancedLocation As EnhancedLocation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ EnhancedLocation { Microsoft::Exchange::WebServices::Data::EnhancedLocation ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EnhancedLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a42b1-117">Obtém detalhes adicionais sobre o local da reunião cancelada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-117">Gets additional details about the location of the canceled meeting.</span>
+          </span>
+          <span data-ttu-id="a42b1-118">O <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-118">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.EnhancedLocation" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a42b1-119">Um objeto contendo detalhes adicionais sobre o local da reunião cancelada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-119">An object containing additional details about the location of the canceled meeting.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Location">
+      <MemberSignature Language="C#" Value="public string Location { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Location" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Location As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Location { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a42b1-120">Obtém o local do compromisso canceladas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-120">Gets the location of the canceled appointment.</span>
+          </span>
+          <span data-ttu-id="a42b1-121">O <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-121">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Location" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a42b1-122">O local do compromisso canceladas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-122">The location of the canceled appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Recurrence">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.Recurrence Recurrence { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.Recurrence Recurrence" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Recurrence As Recurrence" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::Recurrence ^ Recurrence { Microsoft::Exchange::WebServices::Data::Recurrence ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.Recurrence</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a42b1-123">Obtém o padrão de recorrência da série recorrente ao qual este compromisso cancelado pertence.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-123">Gets the recurrence pattern for the recurring series to which this canceled appointment belongs.</span>
+          </span>
+          <span data-ttu-id="a42b1-124">O <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-124">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Recurrence" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a42b1-125">Um objeto de padrão de recorrência.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-125">A recurrence pattern object.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveMeetingFromCalendar">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.CalendarActionResults RemoveMeetingFromCalendar ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Data.CalendarActionResults RemoveMeetingFromCalendar() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.MeetingCancellation.RemoveMeetingFromCalendar" />
+      <MemberSignature Language="VB.NET" Value="Public Function RemoveMeetingFromCalendar () As CalendarActionResults" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Data::CalendarActionResults ^ RemoveMeetingFromCalendar();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.CalendarActionResults</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="a42b1-126">Remove a reunião que está associada com a mensagem de cancelamento do calendário do usuário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-126">Removes the meeting that is associated with the cancellation message from the user's calendar.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="a42b1-127">Uma <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> objeto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-127">A <see cref="T:Microsoft.Exchange.WebServices.Data.CalendarActionResults" /> object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Start">
+      <MemberSignature Language="C#" Value="public DateTime Start { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime Start" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Start As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Start { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="a42b1-128">Obtém a hora em que o compromisso cancelado é iniciado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-128">Gets the time that the canceled appointment starts.</span>
+          </span>
+          <span data-ttu-id="a42b1-129">O <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-129">The <see cref="P:Microsoft.Exchange.WebServices.Data.MeetingCancellation.Start" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="a42b1-130">A hora de início do compromisso.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="a42b1-130">The start time of the appointment.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,174 @@
+<Type Name="GetClientAccessTokenResponse" FullName="Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7b570204e2798f2a040adba4c5fc930ed2265d38" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621951" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class GetClientAccessTokenResponse : Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit GetClientAccessTokenResponse extends Microsoft.Exchange.WebServices.Data.ServiceResponse" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class GetClientAccessTokenResponse&#xA;Inherits ServiceResponse" />
+  <TypeSignature Language="C++ CLI" Value="public ref class GetClientAccessTokenResponse sealed : Microsoft::Exchange::WebServices::Data::ServiceResponse" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="9f400-101">Contém informações sobre um token de acesso do cliente.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9f400-101">Contains information about a client access token.</span>
+      </span>
+      <span data-ttu-id="9f400-102">O <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="9f400-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f400-103">Obtém o cliente ID de token de acesso</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-103">Gets the client access token ID.</span>
+          </span>
+          <span data-ttu-id="9f400-104">O <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-104">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.Id" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f400-105">A ID.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-105">The ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenType As ClientAccessTokenType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAccessTokenType TokenType { Microsoft::Exchange::WebServices::Data::ClientAccessTokenType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f400-106">Obtém o tipo de token que inclui informações de retorno de chamada de identidade e a extensão do chamador.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-106">Gets the token type which includes caller identity and extension callback information.</span>
+          </span>
+          <span data-ttu-id="9f400-107">O <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-107">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenType" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f400-108">O tipo de token.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-108">The token type.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenValue">
+      <MemberSignature Language="C#" Value="public string TokenValue { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TokenValue" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenValue As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TokenValue { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f400-109">Obtém o valor do cliente codificado acesso token.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-109">Gets the value of the encoded client access token.</span>
+          </span>
+          <span data-ttu-id="9f400-110">O <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TokenValue" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f400-111">O valor do token.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-111">The token value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TTL">
+      <MemberSignature Language="C#" Value="public int TTL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 TTL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TTL As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int TTL { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="9f400-112">Obtém o número de minutos antes que o token de acesso de cliente expire.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-112">Gets the number of minutes before the client access token expires.</span>
+          </span>
+          <span data-ttu-id="9f400-113">O <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.GetClientAccessTokenResponse.TTL" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="9f400-114">O valor TTL, em minutos.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="9f400-114">The TTL value, in minutes.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

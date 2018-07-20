@@ -1,0 +1,93 @@
+<Type Name="LobbyBypass" FullName="Microsoft.Exchange.WebServices.Data.LobbyBypass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d9a53b56606d7f25fa5fa495e06fb64f70c870c0" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621677" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum LobbyBypass" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LobbyBypass extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LobbyBypass" />
+  <TypeSignature Language="C++ CLI" Value="public enum class LobbyBypass" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+      <span data-ttu-id="24b3c-101">Determina se os participantes do telefone devem esperar na área de preparo online ao ingressar em uma reunião online.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="24b3c-101">Determines whether phone participants must wait in the online staging area when joining an online meeting.</span>
+      </span>
+      <span data-ttu-id="24b3c-102">O <see cref="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" /> enumeração é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="24b3c-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.LobbyBypass" /> enumeration is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LobbyBypass Disabled = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="C++ CLI" Value="Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24b3c-103">Aguarde a participantes de telefone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24b3c-103">Phone participants wait.</span>
+          </span>
+          <span data-ttu-id="24b3c-104">O <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" /> campo é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24b3c-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.Disabled" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnabledForGatewayParticipants">
+      <MemberSignature Language="C#" Value="EnabledForGatewayParticipants" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.LobbyBypass EnabledForGatewayParticipants = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" />
+      <MemberSignature Language="VB.NET" Value="EnabledForGatewayParticipants" />
+      <MemberSignature Language="C++ CLI" Value="EnabledForGatewayParticipants" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.LobbyBypass</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="24b3c-105">Os participantes de gateway podem ingressar em uma reunião online diretamente.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24b3c-105">Gateway participants can join an online meeting directly.</span>
+          </span>
+          <span data-ttu-id="24b3c-106">O <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" /> campo é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="24b3c-106">The <see cref="F:Microsoft.Exchange.WebServices.Data.LobbyBypass.EnabledForGatewayParticipants" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

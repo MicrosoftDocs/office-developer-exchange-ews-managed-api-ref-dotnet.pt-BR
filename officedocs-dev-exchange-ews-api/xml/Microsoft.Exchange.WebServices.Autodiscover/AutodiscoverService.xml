@@ -1,0 +1,834 @@
+<Type Name="AutodiscoverService" FullName="Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c88de3f7ba47d96a430bc477dffe70a72760b23a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622516" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class AutodiscoverService : Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AutodiscoverService extends Microsoft.Exchange.WebServices.Data.ExchangeServiceBase" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AutodiscoverService&#xA;Inherits ExchangeServiceBase" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AutodiscoverService sealed : Microsoft::Exchange::WebServices::Data::ExchangeServiceBase" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ExchangeServiceBase</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="f022c-101">Representa uma ligação para o serviço de descoberta automática do Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f022c-101">Represents a binding to the Exchange Autodiscover service.</span>
+      </span>
+    </summary>
+    <remarks>
+      <span data-ttu-id="f022c-102">
+        <para>Na API gerenciado dos serviços Web do Exchange (EWS), o <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> classe contém os métodos e propriedades que são usadas para definir as credenciais de usuário, identifique os pontos de extremidade do EWS, enviar e receber mensagens de SOAP e configurar conexões com o EWS. Para executar uma operação usando a API gerenciada de EWS, você deve primeiro configurar o <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> classe.</para>
+        <para />
+      </span>
+      <span class="sxs-lookup">
+        <span data-stu-id="f022c-102">
+          <para>In the Exchange Web Services (EWS) Managed API, the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class contains the methods and properties that are used to set user credentials, identify EWS endpoints, send and receive SOAP messages, and configure connections to EWS. To perform an operation by using the EWS Managed API, you must first set up the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeService" /> class.</para>
+          <para />
+        </span>
+      </span>
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverService ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverService();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-103">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverService (Microsoft.Exchange.WebServices.Data.ExchangeVersion requestedServerVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion requestedServerVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.#ctor(Microsoft.Exchange.WebServices.Data.ExchangeVersion)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (requestedServerVersion As ExchangeVersion)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverService(Microsoft::Exchange::WebServices::Data::ExchangeVersion requestedServerVersion);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="requestedServerVersion" Type="Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
+      </Parameters>
+      <Docs>
+        <param name="requestedServerVersion">
+          <span data-ttu-id="f022c-104">Uma do <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> valores de enumeração que especifica a versão do servidor a ser usado para solicitações de operação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-104">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration values that specifies the server version to be used for operation requests.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-105">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe que tem a versão do servidor especificada pelo <paramref name="requestedServerVersion" /> parâmetro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-105">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverService (string domain);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string domain) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (domain As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverService(System::String ^ domain);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="domain">
+          <span data-ttu-id="f022c-106">O domínio que será usado para determinar a URL do serviço Descoberta automática.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-106">The domain that will be used to determine the URL of the Autodiscover service.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-107">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe que tenha o domínio especificado pelo <paramref name="domain" /> parâmetro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the domain specified by the <paramref name="domain" /> parameter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverService (Uri url);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri url) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.#ctor(System.Uri)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (url As Uri)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverService(Uri ^ url);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="url" Type="System.Uri" />
+      </Parameters>
+      <Docs>
+        <param name="url">
+          <span data-ttu-id="f022c-108">A URL do serviço Descoberta automática.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-108">The URL of the Autodiscover service.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-109">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe que tem a descoberta automática de URL especificado por serviço o <paramref name="url" /> parâmetro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-109">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the Autodiscover service URL specified by the <paramref name="url" /> parameter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverService (string domain, Microsoft.Exchange.WebServices.Data.ExchangeVersion requestedServerVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string domain, valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion requestedServerVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.#ctor(System.String,Microsoft.Exchange.WebServices.Data.ExchangeVersion)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (domain As String, requestedServerVersion As ExchangeVersion)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverService(System::String ^ domain, Microsoft::Exchange::WebServices::Data::ExchangeVersion requestedServerVersion);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="requestedServerVersion" Type="Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
+      </Parameters>
+      <Docs>
+        <param name="domain">
+          <span data-ttu-id="f022c-110">O domínio que será usado para determinar a URL do serviço Descoberta automática.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-110">The domain that will be used to determine the URL of the Autodiscover service.</span>
+          </span>
+        </param>
+        <param name="requestedServerVersion">
+          <span data-ttu-id="f022c-111">Um dos valores de enumeração que especifica a versão do servidor a ser usado para solicitações de operação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-111">One of the  enumeration values that specifies the server version to use for operation requests.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-112">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe que tenha o domínio especificado pelo <paramref name="domain" /> parâmetro e a versão do servidor especificado pelo <paramref name="requestedServerVersion" /> parâmetro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-112">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the domain specified by the <paramref name="domain" /> parameter and the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AutodiscoverService (Uri url, Microsoft.Exchange.WebServices.Data.ExchangeVersion requestedServerVersion);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Uri url, valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion requestedServerVersion) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.#ctor(System.Uri,Microsoft.Exchange.WebServices.Data.ExchangeVersion)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (url As Uri, requestedServerVersion As ExchangeVersion)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AutodiscoverService(Uri ^ url, Microsoft::Exchange::WebServices::Data::ExchangeVersion requestedServerVersion);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="url" Type="System.Uri" />
+        <Parameter Name="requestedServerVersion" Type="Microsoft.Exchange.WebServices.Data.ExchangeVersion" />
+      </Parameters>
+      <Docs>
+        <param name="url">
+          <span data-ttu-id="f022c-113">A URL do serviço Descoberta automática.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-113">The URL of the Autodiscover service.</span>
+          </span>
+        </param>
+        <param name="requestedServerVersion">
+          <span data-ttu-id="f022c-114">Um dos valores de enumeração que especifica a versão do servidor a ser usado para solicitações de operação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-114">One of the enumeration values that specifies the server version to be used for operation requests.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-115">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe que tem a descoberta automática de URL especificado por serviço o <paramref name="url" /> parâmetro e a versão do servidor especificado pelo <paramref name="requestedServerVersion" /> parâmetro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-115">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class that has the Autodiscover service URL specified by the <paramref name="url" /> parameter and the server version specified by the <paramref name="requestedServerVersion" /> parameter.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Domain">
+      <MemberSignature Language="C#" Value="public string Domain { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Domain" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.Domain" />
+      <MemberSignature Language="VB.NET" Value="Public Property Domain As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Domain { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-116">Obtém ou define o domínio no qual o serviço de descoberta automática especificado está vinculado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-116">Gets or sets the domain that the specified Autodiscover service is bound to.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f022c-117">O nome de domínio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-117">The domain name.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f022c-118">
+            <para>Quando o <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe é instanciado com um nome de domínio, esse nome de domínio é usado para determinar a URL do serviço de descoberta automática automaticamente.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-118">
+              <para>When the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class is instantiated with a domain name, that domain name is used to determine the Autodiscover service URL automatically.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableScpLookup">
+      <MemberSignature Language="C#" Value="public bool EnableScpLookup { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool EnableScpLookup" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.EnableScpLookup" />
+      <MemberSignature Language="VB.NET" Value="Public Property EnableScpLookup As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool EnableScpLookup { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-119">Obtém ou define se o <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instância deve realizar uma pesquisa de ponto de Conexão de serviço (SCP) ao determinar a URL do serviço.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-119">Gets or sets whether the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instance should perform a Service Connection Point (SCP) lookup when determining the service URL.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f022c-120">
+            <b>True</b> se o <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instância deve executar uma pesquisa de SCP; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-120">
+              <b>true</b> if the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> instance should perform an SCP lookup; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDomainSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection GetDomainSettings (System.Collections.Generic.IEnumerable&lt;string&gt; domains, Nullable&lt;Microsoft.Exchange.WebServices.Data.ExchangeVersion&gt; requestedVersion, params Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[] domainSettingNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection GetDomainSettings(class System.Collections.Generic.IEnumerable`1&lt;string&gt; domains, valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion&gt; requestedVersion, valuetype Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[] domainSettingNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings(System.Collections.Generic.IEnumerable{System.String},System.Nullable{Microsoft.Exchange.WebServices.Data.ExchangeVersion},Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDomainSettings (domains As IEnumerable(Of String), requestedVersion As Nullable(Of ExchangeVersion), ParamArray domainSettingNames As DomainSettingName()) As GetDomainSettingsResponseCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Autodiscover::GetDomainSettingsResponseCollection ^ GetDomainSettings(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ domains, Nullable&lt;Microsoft::Exchange::WebServices::Data::ExchangeVersion&gt; requestedVersion, ... cli::array &lt;Microsoft::Exchange::WebServices::Autodiscover::DomainSettingName&gt; ^ domainSettingNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domains" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="requestedVersion" Type="System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ExchangeVersion&gt;" />
+        <Parameter Name="domainSettingNames" Type="Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="domains">
+          <span data-ttu-id="f022c-121">Os endereços SMTP dos domínios.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-121">The SMTP addresses of the domains.</span>
+          </span>
+        </param>
+        <param name="requestedVersion">
+          <span data-ttu-id="f022c-122">Uma do <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> valores de enumeração que especifica a versão do servidor a ser usado para solicitações de operação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-122">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration values that specifies the server version to be used for operation requests.</span>
+          </span>
+        </param>
+        <param name="domainSettingNames">
+          <span data-ttu-id="f022c-123">Os nomes de configuração de domínio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-123">The domain setting names.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-124">Recupera as configurações especificadas para um conjunto de domínios nas URLs especificados com a versão do servidor especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-124">Retrieves the specified settings for a set of domains at the specified URLs with the specified server version.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f022c-125">Uma coleção que contém as respostas para cada domínio individual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-125">A collection that contains the responses for each individual domain.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="f022c-126">
+            <para>O retornado <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" /> objeto contém as configurações para os domínios.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-126">
+              <para>The returned <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponseCollection" /> object contains the settings for the domains.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDomainSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse GetDomainSettings (string domain, Nullable&lt;Microsoft.Exchange.WebServices.Data.ExchangeVersion&gt; requestedVersion, params Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[] domainSettingNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse GetDomainSettings(string domain, valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.ExchangeVersion&gt; requestedVersion, valuetype Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[] domainSettingNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetDomainSettings(System.String,System.Nullable{Microsoft.Exchange.WebServices.Data.ExchangeVersion},Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDomainSettings (domain As String, requestedVersion As Nullable(Of ExchangeVersion), ParamArray domainSettingNames As DomainSettingName()) As GetDomainSettingsResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Autodiscover::GetDomainSettingsResponse ^ GetDomainSettings(System::String ^ domain, Nullable&lt;Microsoft::Exchange::WebServices::Data::ExchangeVersion&gt; requestedVersion, ... cli::array &lt;Microsoft::Exchange::WebServices::Autodiscover::DomainSettingName&gt; ^ domainSettingNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="domain" Type="System.String" />
+        <Parameter Name="requestedVersion" Type="System.Nullable&lt;Microsoft.Exchange.WebServices.Data.ExchangeVersion&gt;" />
+        <Parameter Name="domainSettingNames" Type="Microsoft.Exchange.WebServices.Autodiscover.DomainSettingName[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="domain">
+          <span data-ttu-id="f022c-127">O endereço SMTP do domínio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-127">The SMTP address of the domain.</span>
+          </span>
+        </param>
+        <param name="requestedVersion">
+          <span data-ttu-id="f022c-128">Uma do <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> valor de enumeração que especifica a versão do servidor a ser usado para solicitações de operação.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-128">One of the <see cref="T:Microsoft.Exchange.WebServices.Data.ExchangeVersion" /> enumeration value that specifies the server version to be used for operation requests.</span>
+          </span>
+        </param>
+        <param name="domainSettingNames">
+          <span data-ttu-id="f022c-129">Os nomes de configuração de domínio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-129">The domain setting names.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-130">Recupera as configurações especificadas para um domínio com a versão do servidor especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-130">Retrieves the specified settings for a domain with the specified server version.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f022c-131">O <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> instância que contém as configurações para o domínio especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-131">The <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.GetDomainSettingsResponse" /> instance that contains the settings for the specified domain.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetScpUrlsForDomainCallback">
+      <MemberSignature Language="C#" Value="public Func&lt;string,System.Collections.Generic.ICollection&lt;string&gt;&gt; GetScpUrlsForDomainCallback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;string, class System.Collections.Generic.ICollection`1&lt;string&gt;&gt; GetScpUrlsForDomainCallback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" />
+      <MemberSignature Language="VB.NET" Value="Public Property GetScpUrlsForDomainCallback As Func(Of String, ICollection(Of String))" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Func&lt;System::String ^, System::Collections::Generic::ICollection&lt;System::String ^&gt; ^&gt; ^ GetScpUrlsForDomainCallback { Func&lt;System::String ^, System::Collections::Generic::ICollection&lt;System::String ^&gt; ^&gt; ^ get(); void set(Func&lt;System::String ^, System::Collections::Generic::ICollection&lt;System::String ^&gt; ^&gt; ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Func&lt;System.String,System.Collections.Generic.ICollection&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-132">Obtém ou define o representante usado para resolver URLs de ponto de Conexão de serviço (SCP) descoberta automática para um domínio especificado. O <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" /> propriedade é aplicável a clientes que visam as versões do Exchange, começando com o Exchange Server 2013, incluindo o Exchange Online.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-132">Gets or sets the delegate used to resolve Autodiscover Service Connection Point (SCP) URLs for a specified domain.The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetScpUrlsForDomainCallback" /> property is applicable to clients that target versions of Exchange starting with Exchange Server 2013, including Exchange Online.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f022c-133">O representante usado para resolver URLs de SCP de descoberta automática para um domínio específico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-133">The delegate used to resolve Autodiscover SCP URLs for a specified domain.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUserSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse GetUserSettings (string userSmtpAddress, params Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[] userSettingNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse GetUserSettings(string userSmtpAddress, valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[] userSettingNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetUserSettings (userSmtpAddress As String, ParamArray userSettingNames As UserSettingName()) As GetUserSettingsResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Autodiscover::GetUserSettingsResponse ^ GetUserSettings(System::String ^ userSmtpAddress, ... cli::array &lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingName&gt; ^ userSettingNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userSmtpAddress" Type="System.String" />
+        <Parameter Name="userSettingNames" Type="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="userSmtpAddress">
+          <span data-ttu-id="f022c-134">O endereço SMTP do usuário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-134">The SMTP address of the user.</span>
+          </span>
+        </param>
+        <param name="userSettingNames">
+          <span data-ttu-id="f022c-135">Os nomes de configuração do usuário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-135">The user setting names.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-136">Recupera as configurações de usuário especificado para um endereço SMTP.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-136">Retrieves the specified user settings for an SMTP address.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f022c-137">As configurações solicitadas para o usuário especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-137">The requested settings for the specified user.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="f022c-138">
+            <para>O <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> método não seguem o endereço e os redirecionamentos de URL. Somente as configurações de usuário solicitado são recuperadas, se existirem.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-138">
+              <para>The <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method does not follow address and URL redirections. Only the requested user settings are retrieved, if they exist.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <example>
+          <span data-ttu-id="f022c-139">
+            <para>O exemplo de código a seguir mostra como usar o <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> método para recuperar o <b>UserDisplayName</b>, <b>CasVersion</b>e outras configurações de usuário solicitadas no <paramref name="userSettingNames" /> parâmetro. O nome da configuração de usuário e o valor são exibidos.</para>
+            <code>public static GetUserSettingsResponse GetUserSettings(
+     AutodiscoverService service,
+     string emailAddress,
+     int maxHops,
+     params UserSettingName[] settings)
+     {
+        Uri url = null;
+        GetUserSettingsResponse response = null;
+
+        for (int attempt = 0; attempt &amp;lt; maxHops; attempt++)
+        {
+             service.Url = url;
+             service.EnableScpLookup = (attempt &amp;lt; 2);
+
+             response = service.GetUserSettings(emailAddress, settings);
+
+             if (response.ErrorCode == AutodiscoverErrorCode.RedirectAddress)
+             {
+                 url = new Uri(response.RedirectTarget);
+             }
+             else if (response.ErrorCode == AutodiscoverErrorCode.RedirectUrl)
+             {
+                url = new Uri(response.RedirectTarget);
+             }
+             else
+             {
+                 return response;
+             }
+         }
+
+         throw new Exception("No suitable Autodiscover endpoint was found.");
+     }
+</code>
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-139">
+              <para>The following code example shows how to use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method to retrieve the <b>UserDisplayName</b>, <b>CasVersion</b>, and other user settings requested in the <paramref name="userSettingNames" /> parameter. The user setting name and value are displayed.</para>
+              <code>public static GetUserSettingsResponse GetUserSettings(
+     AutodiscoverService service,
+     string emailAddress,
+     int maxHops,
+     params UserSettingName[] settings)
+     {
+        Uri url = null;
+        GetUserSettingsResponse response = null;
+
+        for (int attempt = 0; attempt &amp;lt; maxHops; attempt++)
+        {
+             service.Url = url;
+             service.EnableScpLookup = (attempt &amp;lt; 2);
+
+             response = service.GetUserSettings(emailAddress, settings);
+
+             if (response.ErrorCode == AutodiscoverErrorCode.RedirectAddress)
+             {
+                 url = new Uri(response.RedirectTarget);
+             }
+             else if (response.ErrorCode == AutodiscoverErrorCode.RedirectUrl)
+             {
+                url = new Uri(response.RedirectTarget);
+             }
+             else
+             {
+                 return response;
+             }
+         }
+
+         throw new Exception("No suitable Autodiscover endpoint was found.");
+     }
+</code>
+            </span>
+          </span>
+        </example>
+      </Docs>
+    </Member>
+    <Member MemberName="GetUsersSettings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponseCollection GetUsersSettings (System.Collections.Generic.IEnumerable&lt;string&gt; userSmtpAddresses, params Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[] userSettingNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponseCollection GetUsersSettings(class System.Collections.Generic.IEnumerable`1&lt;string&gt; userSmtpAddresses, valuetype Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[] userSettingNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUsersSettings(System.Collections.Generic.IEnumerable{System.String},Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetUsersSettings (userSmtpAddresses As IEnumerable(Of String), ParamArray userSettingNames As UserSettingName()) As GetUserSettingsResponseCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Exchange::WebServices::Autodiscover::GetUserSettingsResponseCollection ^ GetUsersSettings(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ userSmtpAddresses, ... cli::array &lt;Microsoft::Exchange::WebServices::Autodiscover::UserSettingName&gt; ^ userSettingNames);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.GetUserSettingsResponseCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="userSmtpAddresses" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
+        <Parameter Name="userSettingNames" Type="Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[]">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.ParamArray</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="userSmtpAddresses">
+          <span data-ttu-id="f022c-140">Os endereços SMTP dos usuários.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-140">The SMTP addresses of the users.</span>
+          </span>
+        </param>
+        <param name="userSettingNames">
+          <span data-ttu-id="f022c-141">Os nomes de configuração do usuário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-141">The user setting names.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-142">Recupera as configurações especificadas para um conjunto de usuários.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-142">Retrieves the specified settings for a set of users.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f022c-143">As respostas para cada usuário individual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-143">The responses for each individual user.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="f022c-144">
+            <para>Esse método se aplica às versões do Exchange, começando com o Exchange 2010, incluindo o Exchange Online. Use o <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> método se você está direcionando uma caixa de correio do Exchange 2007.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-144">
+              <para>This method applies to versions of Exchange starting with Exchange 2010, including Exchange Online. Use the <see cref="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.GetUserSettings(System.String,Microsoft.Exchange.WebServices.Autodiscover.UserSettingName[])" /> method if you are targeting an Exchange 2007 mailbox. </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsExternal">
+      <MemberSignature Language="C#" Value="public Nullable&lt;bool&gt; IsExternal { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; IsExternal" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsExternal As Nullable(Of Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsExternal { Nullable&lt;bool&gt; get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-145">Obtém ou define um valor que indica se o serviço de descoberta automática a URL aponta para é interno (dentro da rede corporativa) ou externo (fora da rede corporativa).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-145">Gets or sets a value that indicates whether the Autodiscover service that the URL points to is internal (inside the corporate network) or external (outside the corporate network).</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f022c-146">
+            <b>true</b> se o domínio é interno; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-146">
+              <b>true</b> if the domain is internal; otherwise, <b>false</b>.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f022c-147">
+            <para>O <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" /> propriedade é uma referência null (Nothing no Visual Basic) se esta instância foi criada com um nome de domínio e nenhum método foi chamado, ou se esta instância foi criada com uma URL.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-147">
+              <para>The <see cref="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.IsExternal" /> property is a null reference (Nothing in Visual Basic) if this instance has been created with a domain name and no method has been called, or if this instance has been created with a URL.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RedirectionUrlValidationCallback">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback RedirectionUrlValidationCallback { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback RedirectionUrlValidationCallback" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.RedirectionUrlValidationCallback" />
+      <MemberSignature Language="VB.NET" Value="Public Property RedirectionUrlValidationCallback As AutodiscoverRedirectionUrlValidationCallback" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverRedirectionUrlValidationCallback ^ RedirectionUrlValidationCallback { Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverRedirectionUrlValidationCallback ^ get(); void set(Microsoft::Exchange::WebServices::Autodiscover::AutodiscoverRedirectionUrlValidationCallback ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverRedirectionUrlValidationCallback</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-148">Obtém ou define o retorno de chamada de validação de URL de redirecionamento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-148">Gets or sets the redirection URL validation callback.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f022c-149">O retorno de validação de URL de redirecionamento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-149">The redirection URL validation callback.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetPartnerAccess">
+      <MemberSignature Language="C#" Value="public bool TryGetPartnerAccess (string targetTenantDomain, out Microsoft.Exchange.WebServices.Data.ExchangeCredentials partnerAccessCredentials, out Uri targetTenantAutodiscoverUrl);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetPartnerAccess(string targetTenantDomain, [out] class Microsoft.Exchange.WebServices.Data.ExchangeCredentials&amp; partnerAccessCredentials, [out] class System.Uri&amp; targetTenantAutodiscoverUrl) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.TryGetPartnerAccess(System.String,Microsoft.Exchange.WebServices.Data.ExchangeCredentials@,System.Uri@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetPartnerAccess (targetTenantDomain As String, ByRef partnerAccessCredentials As ExchangeCredentials, ByRef targetTenantAutodiscoverUrl As Uri) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetPartnerAccess(System::String ^ targetTenantDomain, [Runtime::InteropServices::Out] Microsoft::Exchange::WebServices::Data::ExchangeCredentials ^ % partnerAccessCredentials, [Runtime::InteropServices::Out] Uri ^ % targetTenantAutodiscoverUrl);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="targetTenantDomain" Type="System.String" />
+        <Parameter Name="partnerAccessCredentials" Type="Microsoft.Exchange.WebServices.Data.ExchangeCredentials&amp;" RefType="out" />
+        <Parameter Name="targetTenantAutodiscoverUrl" Type="System.Uri&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="targetTenantDomain">
+          <span data-ttu-id="f022c-150">O destino domínio ou usuário endereço de email.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-150">The target domain or user email address.</span>
+          </span>
+        </param>
+        <param name="partnerAccessCredentials">
+          <span data-ttu-id="f022c-151">As credenciais de acesso do parceiro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-151">The partner access credentials.</span>
+          </span>
+        </param>
+        <param name="targetTenantAutodiscoverUrl">
+          <span data-ttu-id="f022c-152">A URL de descoberta automática para o inquilino especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-152">The Autodiscover URL for the specified tenant.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="f022c-153">Tenta recuperar as informações de acesso do parceiro para o inquilino especificado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-153">Attempts to retrieve the partner access information for the specified tenant.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="f022c-154">
+            <b>true</b> se o parceiro acessar informações foi recuperado; Caso contrário, <b>false</b>.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-154">
+              <b>true</b> if the partner access information was retrieved; otherwise, <b>false</b>.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Url">
+      <MemberSignature Language="C#" Value="public Uri Url { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Uri Url" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService.Url" />
+      <MemberSignature Language="VB.NET" Value="Public Property Url As Uri" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ Url { Uri ^ get(); void set(Uri ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Uri</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="f022c-155">Obtém ou define a URL do serviço Descoberta automática.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-155">Gets or sets the URL of the Autodiscover service.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="f022c-156">A URL.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-156">The URL.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="f022c-157">
+            <para>Quando o <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> classe é instanciado com um nome de domínio, esse nome de domínio é usado para determinar a URL do serviço de descoberta automática automaticamente.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="f022c-157">
+              <para>When the <see cref="T:Microsoft.Exchange.WebServices.Autodiscover.AutodiscoverService" /> class is instantiated with a domain name, that domain name is used to determine the Autodiscover service URL automatically.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

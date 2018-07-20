@@ -1,0 +1,1275 @@
+<Type Name="RulePredicates" FullName="Microsoft.Exchange.WebServices.Data.RulePredicates">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="36486a84f08191f9825b249cd872da7776b1953d" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621756" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class RulePredicates : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit RulePredicates extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.RulePredicates" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class RulePredicates&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RulePredicates sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="17633-101">Representa o conjunto de condições e exceções disponíveis para uma regra.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="17633-101">Represents the set of conditions and exceptions that are available for a rule.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Categories">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList Categories { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList Categories" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Categories As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ Categories { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-102">Obtém as categorias rotulada com uma mensagem de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-102">Gets the categories that an incoming message is labeled with in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-103">As categorias que estão associadas à mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-103">The categories that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-104">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-104">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Categories" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsBodyStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsBodyStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsBodyStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsBodyStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsBodyStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-105">Obtém as cadeias de caracteres que aparecem no corpo das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-105">Gets the strings that appear in the body of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-106">As cadeias de caracteres de corpo que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-106">The body strings that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-107">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-107">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsBodyStrings" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsHeaderStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsHeaderStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsHeaderStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsHeaderStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsHeaderStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-108">Obtém as cadeias de caracteres que aparecem nos cabeçalhos de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-108">Gets the strings that appear in the headers of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-109">As cadeias de caracteres de cabeçalhos que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-109">The headers strings that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-110">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-110">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsHeaderStrings" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsRecipientStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsRecipientStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsRecipientStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsRecipientStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsRecipientStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-111">Obtém as cadeias de caracteres que aparecem nas propriedades do ToRecipients ou CC das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-111">Gets the strings that appear in either the ToRecipients or CcRecipients properties of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-112">As cadeias de caracteres destinatários que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-112">The recipient strings that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-113">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-113">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsRecipientStrings" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSenderStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSenderStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSenderStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSenderStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSenderStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-114">Obtém as cadeias de caracteres que aparece na propriedade From das mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-114">Gets the strings that appears in the From property of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-115">As cadeias de caracteres de remetente que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-115">The sender strings that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-116">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-116">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSenderStrings" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSubjectOrBodyStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectOrBodyStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSubjectOrBodyStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSubjectOrBodyStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-117">Obtém as cadeias de caracteres que aparecem no corpo ou o assunto de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-117">Gets the strings that appear in either the body or the subject of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-118">As assunto ou corpo cadeias de caracteres que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-118">The subject or body strings that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-119">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-119">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectOrBodyStrings" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsSubjectStrings">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectStrings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ContainsSubjectStrings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContainsSubjectStrings As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ContainsSubjectStrings { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-120">Obtém as cadeias de caracteres que aparecem no assunto de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-120">Gets the strings that appear in the subject of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-121">As cadeias de caracteres de entidade que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-121">The subject strings that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-122">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-122">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ContainsSubjectStrings" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlaggedForAction">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt; FlaggedForAction { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt; FlaggedForAction" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />
+      <MemberSignature Language="VB.NET" Value="Public Property FlaggedForAction As Nullable(Of FlaggedForAction)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; FlaggedForAction { Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::FlaggedForAction&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.FlaggedForAction&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-123">Obtém ou define o sinalizador para o valor de ação que aparece em mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-123">Gets or sets the flag for action value that appears on incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-124">O valor da propriedade FlaggedForAction.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-124">The FlaggedForAction property value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-125">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" />pode ser desabilitado pela definição dessa propriedade como null.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-125">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FlaggedForAction" /> can be disabled by setting this property to null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection FromAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection FromAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromAddresses As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ FromAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-126">Obtém os endereços de email dos remetentes de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-126">Gets the e-mail addresses of the senders of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-127">Uma coleção de endereços de email.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-127">A collection of e-mail addresses.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-128">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-128">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromAddresses" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FromConnectedAccounts">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList FromConnectedAccounts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList FromConnectedAccounts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FromConnectedAccounts As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ FromConnectedAccounts { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-129">Obtém o email nomes de conta do qual as mensagens de entrada devem ter foram agregadas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-129">Gets the e-mail account names from which incoming messages must have been aggregated in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-130">Os nomes de conta de email que estão associados a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-130">The e-mail account names that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-131">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-131">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.FromConnectedAccounts" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasAttachments">
+      <MemberSignature Language="C#" Value="public bool HasAttachments { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HasAttachments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.HasAttachments" />
+      <MemberSignature Language="VB.NET" Value="Public Property HasAttachments As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool HasAttachments { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-132">Obtém ou define um valor que indica se as mensagens de entrada devem ter anexos em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-132">Gets or sets a value that indicates whether incoming messages must have attachments in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-133">True se as mensagens de entrada devem ter anexos em ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-133">true if the incoming messages must have attachments in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Importance">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt; Importance { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Importance&gt; Importance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />
+      <MemberSignature Language="VB.NET" Value="Public Property Importance As Nullable(Of Importance)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; Importance { Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Importance&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Importance&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-134">Obtém ou define a importância que é marcada nas mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-134">Gets or sets the importance that is stamped on incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-135">O valor da propriedade importância.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-135">The Importance property value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-136">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" />pode ser desabilitado pela definição dessa propriedade como null.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-136">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Importance" /> can be disabled by setting this property to null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsApprovalRequest">
+      <MemberSignature Language="C#" Value="public bool IsApprovalRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsApprovalRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsApprovalRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsApprovalRequest { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-137">Obtém ou define um valor que indica se as mensagens de entrada devem ser solicitações de aprovação em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-137">Gets or sets a value that indicates whether incoming messages must be approval requests in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-138">True se as mensagens de entrada devem ser solicitações de aprovação em ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-138">true if the incoming messages must be approval requests in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutomaticForward">
+      <MemberSignature Language="C#" Value="public bool IsAutomaticForward { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAutomaticForward" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsAutomaticForward" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAutomaticForward As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAutomaticForward { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-139">Obtém ou define um valor que indica se as mensagens de entrada devem ser encaminhamentos automáticos na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-139">Gets or sets a value that indicates whether incoming messages must be automatic forwards in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-140">True se as mensagens de entrada devem ser encaminhamentos automáticos na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-140">true if the incoming messages must be automatic forwards in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAutomaticReply">
+      <MemberSignature Language="C#" Value="public bool IsAutomaticReply { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAutomaticReply" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsAutomaticReply" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAutomaticReply As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsAutomaticReply { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-141">Obtém ou define um valor que indica se as mensagens de entrada devem ser respostas automáticas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-141">Gets or sets a value that indicates whether incoming messages must be automatic replies in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-142">True se as mensagens de entrada devem ser respostas automáticas na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-142">true if the incoming messages must be automatic replies in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsEncrypted">
+      <MemberSignature Language="C#" Value="public bool IsEncrypted { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsEncrypted" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsEncrypted" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsEncrypted As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsEncrypted { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-143">Obtém ou define um valor que indica se as mensagens de entrada devem ser S/MIME criptografada em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-143">Gets or sets a value that indicates whether incoming messages must be S/MIME encrypted in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-144">True se as mensagens de entrada devem ser S/MIME criptografada para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-144">true if the incoming messages must be S/MIME encrypted for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingRequest">
+      <MemberSignature Language="C#" Value="public bool IsMeetingRequest { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsMeetingRequest" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingRequest { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-145">Obtém ou define um valor que indica se as mensagens de entrada devem ser solicitações de reunião na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-145">Gets or sets a value that indicates whether incoming messages must be meeting requests in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-146">True se as mensagens de entrada devem ser solicitações de reunião na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-146">true if the incoming messages must be meeting requests in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMeetingResponse">
+      <MemberSignature Language="C#" Value="public bool IsMeetingResponse { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMeetingResponse" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsMeetingResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMeetingResponse As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsMeetingResponse { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-147">Obtém ou define um valor que indica se as mensagens de entrada devem ser respostas de reunião na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-147">Gets or sets a value that indicates whether incoming messages must be meeting responses in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-148">True se as mensagens de entrada devem ser respostas em ordem para a condição ou uma exceção a ser aplicado; de reunião Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-148">true if the incoming messages must be meeting responses in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNonDeliveryReport">
+      <MemberSignature Language="C#" Value="public bool IsNonDeliveryReport { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNonDeliveryReport" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsNonDeliveryReport" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsNonDeliveryReport As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsNonDeliveryReport { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-149">Obtém ou define um valor que indica se as mensagens de entrada devem ser relatórios de falha na entrega (NDR) em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-149">Gets or sets a value that indicates whether incoming messages must be non-delivery reports (NDR) in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-150">True se as mensagens de entrada devem ser relatórios de falha na entrega (NDR) em ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-150">true if the incoming messages must be non-delivery reports (NDR) in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPermissionControlled">
+      <MemberSignature Language="C#" Value="public bool IsPermissionControlled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPermissionControlled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsPermissionControlled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsPermissionControlled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsPermissionControlled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-151">Obtém ou define um valor que indica se as mensagens de entrada devem ser controlado de permissão (protegida por RMS) na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-151">Gets or sets a value that indicates whether incoming messages must be permission controlled (RMS protected) in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-152">True se as mensagens de entrada devem ser controlado de permissão (protegida por RMS) na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-152">true if the incoming messages must be permission controlled (RMS protected) in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsReadReceipt">
+      <MemberSignature Language="C#" Value="public bool IsReadReceipt { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsReadReceipt" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsReadReceipt" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsReadReceipt As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsReadReceipt { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-153">Obtém ou define um valor que indica se as mensagens de entrada devem ser confirmações de leitura na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-153">Gets or sets a value that indicates whether incoming messages must be read receipts in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-154">True se as mensagens de entrada devem ser lido confirmações na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-154">true if the incoming messages must be read receipts in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsSigned">
+      <MemberSignature Language="C#" Value="public bool IsSigned { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsSigned" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsSigned" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsSigned As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsSigned { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-155">Obtém ou define um valor que indica se as mensagens de entrada devem ser QUE S/MIME assinadas em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-155">Gets or sets a value that indicates whether incoming messages must be S/MIME signed in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-156">True se as mensagens de entrada devem ser S/MIME assinadas em ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-156">true if the incoming messages must be S/MIME signed in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsVoicemail">
+      <MemberSignature Language="C#" Value="public bool IsVoicemail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsVoicemail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.IsVoicemail" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsVoicemail As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsVoicemail { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-157">Obtém ou define um valor que indica se as mensagens de entrada devem ser postais na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-157">Gets or sets a value that indicates whether incoming messages must be voice mails in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-158">True se as mensagens de entrada devem ser postais na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-158">true if the incoming messages must be voice mails in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ItemClasses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList ItemClasses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList ItemClasses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ItemClasses As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ ItemClasses { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-159">Obtém as classes de item que devem ser marcadas em mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-159">Gets the item classes that must be stamped on incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-160">True se as classes de item devem ser marcadas em mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-160">true if the item classes must be stamped on incoming messages in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-161">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-161">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.ItemClasses" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageClassifications">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.StringList MessageClassifications { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.StringList MessageClassifications" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageClassifications As StringList" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::StringList ^ MessageClassifications { Microsoft::Exchange::WebServices::Data::StringList ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.StringList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-162">Obtém as classificações de mensagem que devem ser marcadas em mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-162">Gets the message classifications that must be stamped on incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-163">As classificações de mensagem que estão associadas a mensagem.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-163">The message classifications that are associated with the message.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-164">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-164">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.MessageClassifications" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotSentToMe">
+      <MemberSignature Language="C#" Value="public bool NotSentToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool NotSentToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.NotSentToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property NotSentToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool NotSentToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-165">Obtém ou define um valor que indica se o proprietário da caixa de correio não deve ser na propriedade ToRecipients das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-165">Gets or sets a value that indicates whether the owner of the mailbox must not be in the ToRecipients property of the incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-166">True se o proprietário da caixa de correio não deve ser um destinatário de To das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-166">true if owner of the mailbox must not be a To recipient of the incoming messages in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt; Sensitivity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.Exchange.WebServices.Data.Sensitivity&gt; Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sensitivity As Nullable(Of Sensitivity)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; Sensitivity { Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; get(); void set(Nullable&lt;Microsoft::Exchange::WebServices::Data::Sensitivity&gt; value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.Exchange.WebServices.Data.Sensitivity&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-167">Obtém ou define a sensibilidade que deve ser marcada em mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-167">Gets or sets the sensitivity that must be stamped on incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-168">O valor da propriedade Sensitivity.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-168">The Sensitivity property value.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-169">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" />pode ser desabilitado pela definição dessa propriedade como null.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-169">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.Sensitivity" /> can be disabled by setting this property to null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentCcMe">
+      <MemberSignature Language="C#" Value="public bool SentCcMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentCcMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentCcMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentCcMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentCcMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-170">Obtém ou define um valor que indica se o proprietário da caixa de correio deve estar na propriedade CC das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-170">Gets or sets a value that indicates whether the owner of the mailbox must be in the CcRecipients property of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-171">True se o proprietário da caixa de correio deve ser um destinatário Cc das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-171">true if the owner of the mailbox must be a Cc recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentOnlyToMe">
+      <MemberSignature Language="C#" Value="public bool SentOnlyToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentOnlyToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentOnlyToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentOnlyToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentOnlyToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-172">Obtém ou define um valor que indica se o proprietário da caixa de correio deve ser a única pessoa na propriedade ToRecipients de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-172">Gets or sets a value that indicates whether the owner of the mailbox must be the only one in the ToRecipients property of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-173">True se o proprietário da caixa de correio deve ser a única para o destinatário das mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-173">true if the owner of the mailbox must be the only To recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToAddresses">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.EmailAddressCollection SentToAddresses { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.EmailAddressCollection SentToAddresses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SentToAddresses As EmailAddressCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ SentToAddresses { Microsoft::Exchange::WebServices::Data::EmailAddressCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.EmailAddressCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-174">Obtém os endereços de email que mensagens de entrada devem ter sido enviadas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-174">Gets the e-mail addresses that incoming messages must have been sent to in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-175">Uma coleção de endereços de email.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-175">A collection of e-mail addresses.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-176">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" />pode ser desabilitado pela definição dessa propriedade como uma lista vazia.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-176">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToAddresses" /> can be disabled by setting this property to an empty list.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToMe">
+      <MemberSignature Language="C#" Value="public bool SentToMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentToMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentToMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentToMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-177">Obtém ou define um valor que indica se o proprietário da caixa de correio deve estar na propriedade ToRecipients de mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-177">Gets or sets a value that indicates whether the owner of the mailbox must be in the ToRecipients property of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-178">True se o proprietário da caixa de correio deve ser um destinatário de To das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-178">true if the owner of the mailbox must be a To recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SentToOrCcMe">
+      <MemberSignature Language="C#" Value="public bool SentToOrCcMe { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SentToOrCcMe" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.SentToOrCcMe" />
+      <MemberSignature Language="VB.NET" Value="Public Property SentToOrCcMe As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool SentToOrCcMe { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-179">Obtém ou define um valor que indica se o proprietário da caixa de correio deve estar na propriedade um ToRecipients ou CC das mensagens recebidas na ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-179">Gets or sets a value that indicates whether the owner of the mailbox must be in either a ToRecipients or CcRecipients property of incoming messages in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-180">True se o proprietário da caixa de correio deve ser um de um destinatário para ou Cc destinatário das mensagens de entrada na ordem para a condição ou uma exceção a ser aplicado; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-180">true if the owner of the mailbox must be either a To recipient or Cc recipient of incoming messages in order for the condition or exception to apply; otherwise, false.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithinDateRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicateDateRange WithinDateRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicateDateRange WithinDateRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WithinDateRange As RulePredicateDateRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicateDateRange ^ WithinDateRange { Microsoft::Exchange::WebServices::Data::RulePredicateDateRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateDateRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-181">Obtém o intervalo de datas dentro do qual as mensagens de entrada devem foram recebidas em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-181">Gets the date range within which incoming messages must have been received in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-182">As datas de início e término.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-182">The start and end dates.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-183">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" />pode ser desativado, definindo o <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> e <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> propriedades como nulo.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-183">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinDateRange" /> can be disabled by setting the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.Start" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateDateRange.End" /> properties to null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithinSizeRange">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange WithinSizeRange { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange WithinSizeRange" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WithinSizeRange As RulePredicateSizeRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::RulePredicateSizeRange ^ WithinSizeRange { Microsoft::Exchange::WebServices::Data::RulePredicateSizeRange ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="17633-184">Obtém os tamanhos mínimos e máximo que mensagens de entrada devem ter em ordem para a condição ou uma exceção a ser aplicado.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-184">Gets the minimum and maximum sizes that incoming messages must have in order for the condition or exception to apply.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="17633-185">O tamanho mínimo e os valores de tamanho máximo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-185">The minimum size and maximum size values.</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="17633-186">
+            <para>
+              <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" />pode ser desativado, definindo o <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> e <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> propriedades como nulo.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="17633-186">
+              <para>
+                <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicates.WithinSizeRange" /> can be disabled by setting the <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MinimumSize" /> and <see cref="P:Microsoft.Exchange.WebServices.Data.RulePredicateSizeRange.MaximumSize" /> properties to null.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

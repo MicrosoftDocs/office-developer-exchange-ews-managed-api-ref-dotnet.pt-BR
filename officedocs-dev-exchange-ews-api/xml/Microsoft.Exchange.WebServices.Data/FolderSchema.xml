@@ -1,0 +1,380 @@
+<Type Name="FolderSchema" FullName="Microsoft.Exchange.WebServices.Data.FolderSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3b9128d2dc96664c882ec2ef23d16e841062de10" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621940" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class FolderSchema : Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FolderSchema extends Microsoft.Exchange.WebServices.Data.ServiceObjectSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class FolderSchema&#xA;Inherits ServiceObjectSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderSchema : Microsoft::Exchange::WebServices::Data::ServiceObjectSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceObjectSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="56b79-101">Representa o esquema de pastas.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="56b79-101">Represents the schema for folders.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderSchema ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderSchema.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderSchema();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-102">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.FolderSchema" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-102">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.FolderSchema" /> class.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ArchiveTag">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ArchiveTag;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ArchiveTag" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.ArchiveTag" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ArchiveTag As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ArchiveTag;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-103">Define a propriedade ArchiveTag.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-103">Defines the ArchiveTag property.</span>
+          </span>
+          <span data-ttu-id="56b79-104">O <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.ArchiveTag" /> campo é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-104">The <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.ArchiveTag" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChildFolderCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ChildFolderCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ChildFolderCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.ChildFolderCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ChildFolderCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ChildFolderCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-105">Define a propriedade ChildFolderCount.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-105">Defines the ChildFolderCount property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DisplayName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DisplayName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DisplayName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DisplayName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-106">Define a propriedade DisplayName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-106">Defines the DisplayName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EffectiveRights">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition EffectiveRights;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition EffectiveRights" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.EffectiveRights" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EffectiveRights As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ EffectiveRights;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-107">Define a propriedade EffectiveRights.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-107">Defines the EffectiveRights property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FolderClass">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FolderClass;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FolderClass" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.FolderClass" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FolderClass As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FolderClass;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-108">Define a propriedade FolderClass.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-108">Defines the FolderClass property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Id;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Id" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Id As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Id;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-109">Define a propriedade Id.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-109">Defines the Id property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedFolderInformation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ManagedFolderInformation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ManagedFolderInformation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.ManagedFolderInformation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ManagedFolderInformation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ManagedFolderInformation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-110">Define a propriedade ManagedFolderInformation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-110">Defines the ManagedFolderInformation property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ParentFolderId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ParentFolderId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ParentFolderId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.ParentFolderId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ParentFolderId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ParentFolderId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-111">Define a propriedade ParentFolderId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-111">Defines the ParentFolderId property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Permissions">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Permissions;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Permissions" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Permissions As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Permissions;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-112">Define a propriedade Permissions.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-112">Defines the Permissions property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTag">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PolicyTag;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PolicyTag" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.PolicyTag" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PolicyTag As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PolicyTag;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-113">Define a propriedade PolicyTag.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-113">Defines the PolicyTag property.</span>
+          </span>
+          <span data-ttu-id="56b79-114">O <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.PolicyTag" /> campo é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-114">The <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.PolicyTag" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TotalCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition TotalCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition TotalCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.TotalCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TotalCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ TotalCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-115">Define a propriedade TotalCount.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-115">Defines the TotalCount property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnreadCount">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UnreadCount;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UnreadCount" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.UnreadCount" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UnreadCount As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UnreadCount;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-116">Define a propriedade UnreadCount.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-116">Defines the UnreadCount property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WellKnownFolderName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition WellKnownFolderName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition WellKnownFolderName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FolderSchema.WellKnownFolderName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WellKnownFolderName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ WellKnownFolderName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="56b79-117">Define a propriedade WellKnownFolderName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-117">Defines the WellKnownFolderName property.</span>
+          </span>
+          <span data-ttu-id="56b79-118">O <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.WellKnownFolderName" /> campo é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="56b79-118">The <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.WellKnownFolderName" /> field is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

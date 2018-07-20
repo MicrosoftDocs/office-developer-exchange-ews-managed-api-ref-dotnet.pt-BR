@@ -1,0 +1,273 @@
+<Type Name="ServiceId" FullName="Microsoft.Exchange.WebServices.Data.ServiceId">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9f78c5b828f97271afd242bc6144bb1b5373d6f7" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622332" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class ServiceId : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ServiceId extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceId" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ServiceId&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceId abstract : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="ed747-101">Representa o Id de um objeto do Exchange.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="ed747-101">Represents the Id of an Exchange object.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ChangeKey">
+      <MemberSignature Language="C#" Value="public string ChangeKey { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ChangeKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceId.ChangeKey" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ChangeKey As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ChangeKey { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed747-102">Obtém a chave de alteração associada ao objeto do Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-102">Gets the change key associated with the Exchange object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed747-103">Um valor de cadeia de caracteres</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-103">A string value</span>
+          </span>
+        </value>
+        <remarks>
+          <span data-ttu-id="ed747-104">
+            <para>A chave de alteração representa a versão da pasta ou item associado.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-104">
+              <para>The change key represents the version of the associated item or folder.            </para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Equals">
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.Equals(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="obj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="obj">
+          <span data-ttu-id="ed747-105">Object para comparar com o Object atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-105">The System.Object to compare with the current System.Object.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ed747-106">Determina se o especificado é igual à data atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-106">Determines whether the specified is equal to the current.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="ed747-107">True se o Object especificado for igual a System. Object atual; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-107">True if the specified System.Object is equal to the current System.Object; otherwise, false.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="ed747-108">
+            <para>Nós não considerar a ChangeKey para ServiceId.Equals.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-108">
+              <para>We don’t consider the ChangeKey for ServiceId.Equals.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+        <exception cref="T:System.NullReferenceException">
+          <span data-ttu-id="ed747-109">O<paramref name="obj" />parâmetro é nulo.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-109">The<paramref name="obj" />parameter is null.</span>
+          </span>
+        </exception>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHashCode">
+      <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.GetHashCode" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override int GetHashCode();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed747-110">Serve como uma função de hash para um tipo específico.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-110">Serves as a hash function for a particular type.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="ed747-111">Um código de hash para o atual Object.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-111">A hash code for the current System.Object.</span>
+          </span>
+        </returns>
+        <remarks>
+          <span data-ttu-id="ed747-112">
+            <para>Nós não considerar a chave de alteração com o cálculo de código de hash.</para>
+            <para />
+          </span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-112">
+              <para>We don’t consider the change key in the hash code computation.</para>
+              <para />
+            </span>
+          </span>
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SameIdAndChangeKey">
+      <MemberSignature Language="C#" Value="public bool SameIdAndChangeKey (Microsoft.Exchange.WebServices.Data.ServiceId other);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool SameIdAndChangeKey(class Microsoft.Exchange.WebServices.Data.ServiceId other) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.SameIdAndChangeKey(Microsoft.Exchange.WebServices.Data.ServiceId)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SameIdAndChangeKey (other As ServiceId) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool SameIdAndChangeKey(Microsoft::Exchange::WebServices::Data::ServiceId ^ other);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="other" Type="Microsoft.Exchange.WebServices.Data.ServiceId" />
+      </Parameters>
+      <Docs>
+        <param name="other">
+          <span data-ttu-id="ed747-113">ServiceId para comparar com ServiceId atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-113">The ServiceId to compare with the current ServiceId.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="ed747-114">Determina se as duas instâncias de ServiceId são iguais (incluindo ChangeKeys)</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-114">Determines whether two ServiceId instances are equal (including ChangeKeys)</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="ed747-115">True se as duas instâncias forem iguais; Caso contrário, false.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-115">True if the two instances are equal; otherwise, false.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceId.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed747-116">Retorna um string que representa o Object atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-116">Returns a System.String that represents the current System.Object.</span>
+          </span>
+        </summary>
+        <returns>
+          <span data-ttu-id="ed747-117">Uma string que representa o Object atual.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-117">A System.String that represents the current System.Object.</span>
+          </span>
+        </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UniqueId">
+      <MemberSignature Language="C#" Value="public string UniqueId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UniqueId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceId.UniqueId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueId { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="ed747-118">Obtém a identificação exclusiva do objeto do Exchange.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-118">Gets the unique Id of the Exchange object.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="ed747-119">Um valor de cadeia de caracteres.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="ed747-119">A string value.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

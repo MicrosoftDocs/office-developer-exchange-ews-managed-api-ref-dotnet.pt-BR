@@ -1,0 +1,2046 @@
+<Type Name="ContactSchema" FullName="Microsoft.Exchange.WebServices.Data.ContactSchema">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f0e216c6854ffa720b93d7b5810b0d4140674a32" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622420" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ContactSchema : Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ContactSchema extends Microsoft.Exchange.WebServices.Data.ItemSchema" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ContactSchema" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContactSchema&#xA;Inherits ItemSchema" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ContactSchema : Microsoft::Exchange::WebServices::Data::ItemSchema" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ItemSchema</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="d738e-101">Representa o esquema de contatos.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="d738e-101">Represents the schema for contacts.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alias">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Alias;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Alias" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Alias" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Alias As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Alias;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-102">Define a propriedade Alias.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-102">Defines the Alias property.</span>
+          </span>
+          <span data-ttu-id="d738e-103">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-103">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition AssistantName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition AssistantName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.AssistantName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AssistantName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ AssistantName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-104">Define a propriedade AssistantName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-104">Defines the AssistantName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssistantPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition AssistantPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition AssistantPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.AssistantPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly AssistantPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ AssistantPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-105">Define a propriedade AssistantPhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-105">Defines the AssistantPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Birthday">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Birthday;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Birthday" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Birthday" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Birthday As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Birthday;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-106">Define a propriedade de aniversário.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-106">Defines the Birthday property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressCity">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCity" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressCity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressCity As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressCity;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-107">Define a propriedade BusinessAddressCity.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-107">Defines the BusinessAddressCity property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCountryOrRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressCountryOrRegion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressCountryOrRegion As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressCountryOrRegion;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-108">Define a propriedade BusinessAddressCountryOrRegion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-108">Defines the BusinessAddressCountryOrRegion property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressPostalCode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressPostalCode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressPostalCode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressPostalCode As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressPostalCode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-109">Define a propriedade BusinessAddressPostalCode.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-109">Defines the BusinessAddressPostalCode property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressState As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-110">Define a propriedade BusinessAddressState.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-110">Defines the BusinessAddressState property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessAddressStreet">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressStreet;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessAddressStreet" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessAddressStreet As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessAddressStreet;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-111">Define a propriedade BusinessAddressStreet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-111">Defines the BusinessAddressStreet property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessFax">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessFax;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessFax" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessFax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessFax As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessFax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-112">Define a propriedade BusinessFax.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-112">Defines the BusinessFax property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessHomePage">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition BusinessHomePage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition BusinessHomePage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessHomePage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessHomePage As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ BusinessHomePage;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-113">Define a propriedade BusinessHomePage.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-113">Defines the BusinessHomePage property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-114">Define a propriedade de telefone comercial.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-114">Defines the BusinessPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BusinessPhone2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition BusinessPhone2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.BusinessPhone2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly BusinessPhone2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ BusinessPhone2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-115">Define a propriedade BusinessPhone2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-115">Defines the BusinessPhone2 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Callback">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Callback;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Callback" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Callback" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Callback As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Callback;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-116">Define a propriedade de retorno de chamada.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-116">Defines the Callback property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CarPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CarPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CarPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CarPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CarPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ CarPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-117">Define a propriedade de telefone do carro.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-117">Defines the CarPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Children;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Children" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Children" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Children As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Children;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-118">Define a propriedade Children.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-118">Defines the Children property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Companies">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Companies;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Companies" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Companies" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Companies As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Companies;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-119">Define a propriedade de empresas.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-119">Defines the Companies property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyMainPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CompanyMainPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition CompanyMainPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CompanyMainPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompanyMainPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ CompanyMainPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-120">Define a propriedade CompanyMainPhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-120">Defines the CompanyMainPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompanyName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CompanyName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CompanyName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CompanyName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompanyName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CompanyName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-121">Define a propriedade CompanyName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-121">Defines the CompanyName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CompleteName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition CompleteName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition CompleteName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.CompleteName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly CompleteName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ CompleteName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-122">Define a propriedade CompleteName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-122">Defines the CompleteName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContactSource">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ContactSource;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ContactSource" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ContactSource" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ContactSource As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ContactSource;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-123">Define a propriedade ContactSource.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-123">Defines the ContactSource property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Department">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Department;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Department" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Department" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Department As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Department;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-124">Define a propriedade de departamento.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-124">Defines the Department property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryId">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectoryId;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectoryId" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.DirectoryId" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DirectoryId As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DirectoryId;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-125">Define a propriedade DirectoryId.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-125">Defines the DirectoryId property.</span>
+          </span>
+          <span data-ttu-id="d738e-126">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-126">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectReports">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectReports;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DirectReports" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.DirectReports" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DirectReports As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DirectReports;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-127">Define a propriedade DirectReports.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-127">Defines the DirectReports property.</span>
+          </span>
+          <span data-ttu-id="d738e-128">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-128">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition DisplayName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition DisplayName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly DisplayName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ DisplayName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-129">Define a propriedade DisplayName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-129">Defines the DisplayName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress1">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddress1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddress1 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ EmailAddress1;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-130">Define a propriedade EmailAddress1.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-130">Defines the EmailAddress1 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddress2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddress2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ EmailAddress2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-131">Define a propriedade EmailAddress2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-131">Defines the EmailAddress2 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddress3">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition EmailAddress3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddress3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddress3 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ EmailAddress3;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-132">Define a propriedade EmailAddress3.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-132">Defines the EmailAddress3 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailAddresses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition EmailAddresses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition EmailAddresses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.EmailAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly EmailAddresses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ EmailAddresses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-133">Define a propriedade EmailAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-133">Defines the EmailAddresses property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAs">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAs;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAs" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.FileAs" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FileAs As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FileAs;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-134">Define a propriedade FileAs.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-134">Defines the FileAs property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileAsMapping">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAsMapping;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition FileAsMapping" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.FileAsMapping" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly FileAsMapping As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ FileAsMapping;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-135">Define a propriedade FileAsMapping.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-135">Defines the FileAsMapping property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Generation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Generation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Generation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Generation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Generation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Generation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-136">Define a propriedade geração.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-136">Defines the Generation property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GivenName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition GivenName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition GivenName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.GivenName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly GivenName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ GivenName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-137">Define a propriedade GivenName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-137">Defines the GivenName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasPicture">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition HasPicture;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition HasPicture" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HasPicture" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HasPicture As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ HasPicture;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-138">Define a propriedade HasPicture.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-138">Defines the HasPicture property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressCity">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCity" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressCity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressCity As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressCity;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-139">Define a propriedade HomeAddressCity.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-139">Defines the HomeAddressCity property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCountryOrRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressCountryOrRegion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressCountryOrRegion As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressCountryOrRegion;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-140">Define a propriedade HomeAddressCountryOrRegion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-140">Defines the HomeAddressCountryOrRegion property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressPostalCode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressPostalCode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressPostalCode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressPostalCode As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressPostalCode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-141">Define a propriedade HomeAddressPostalCode.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-141">Defines the HomeAddressPostalCode property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressState As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-142">Define a propriedade HomeAddressState.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-142">Defines the HomeAddressState property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeAddressStreet">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressStreet;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeAddressStreet" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeAddressStreet As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeAddressStreet;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-143">Define a propriedade HomeAddressStreet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-143">Defines the HomeAddressStreet property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomeFax">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeFax;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomeFax" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomeFax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomeFax As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomeFax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-144">Define a propriedade HomeFax.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-144">Defines the HomeFax property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomePhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomePhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomePhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-145">Define a propriedade HomePhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-145">Defines the HomePhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HomePhone2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition HomePhone2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.HomePhone2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly HomePhone2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ HomePhone2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-146">Define a propriedade HomePhone2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-146">Defines the HomePhone2 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress1">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress1;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress1" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddress1" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddress1 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ ImAddress1;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-147">Define a propriedade ImAddress1.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-147">Defines the ImAddress1 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress2">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress2;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress2" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddress2" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddress2 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ ImAddress2;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-148">Define a propriedade ImAddress2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-148">Defines the ImAddress2 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddress3">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress3;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition ImAddress3" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddress3" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddress3 As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ ImAddress3;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-149">Define a propriedade ImAddress3.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-149">Defines the ImAddress3 property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ImAddresses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ImAddresses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ImAddresses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ImAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ImAddresses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ImAddresses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-150">Define a propriedade ImAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-150">Defines the ImAddresses property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Initials">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Initials;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Initials" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Initials" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Initials As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Initials;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-151">Define a propriedade iniciais.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-151">Defines the Initials property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Isdn">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Isdn;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Isdn" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Isdn" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Isdn As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Isdn;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-152">Define a propriedade Isdn.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-152">Defines the Isdn property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JobTitle">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition JobTitle;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition JobTitle" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.JobTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly JobTitle As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ JobTitle;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-153">Define a propriedade JobTitle.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-153">Defines the JobTitle property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Manager">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Manager;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Manager" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Manager" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Manager As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Manager;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-154">Define a propriedade Manager.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-154">Defines the Manager property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagerMailbox">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition ManagerMailbox;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition ManagerMailbox" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.ManagerMailbox" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly ManagerMailbox As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ ManagerMailbox;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-155">Define a propriedade ManagerMailbox.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-155">Defines the ManagerMailbox property.</span>
+          </span>
+          <span data-ttu-id="d738e-156">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-156">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MiddleName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MiddleName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MiddleName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.MiddleName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MiddleName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MiddleName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-157">Define a propriedade MiddleName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-157">Defines the MiddleName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Mileage">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Mileage;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Mileage" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Mileage" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Mileage As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Mileage;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-158">Define a propriedade Mileage.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-158">Defines the Mileage property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MobilePhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition MobilePhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition MobilePhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.MobilePhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MobilePhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ MobilePhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-159">Define a propriedade MobilePhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-159">Defines the MobilePhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MSExchangeCertificate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition MSExchangeCertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition MSExchangeCertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.MSExchangeCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly MSExchangeCertificate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ MSExchangeCertificate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-160">Define a propriedade MSExchangeCertificate.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-160">Defines the MSExchangeCertificate property.</span>
+          </span>
+          <span data-ttu-id="d738e-161">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-161">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NickName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition NickName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition NickName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.NickName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly NickName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ NickName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-162">Define a propriedade NickName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-162">Defines the NickName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Notes;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Notes" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Notes" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Notes As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Notes;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-163">Define a propriedade Notes.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-163">Defines the Notes property.</span>
+          </span>
+          <span data-ttu-id="d738e-164">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-164">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfficeLocation">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition OfficeLocation;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition OfficeLocation" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OfficeLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OfficeLocation As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ OfficeLocation;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-165">Define a propriedade OfficeLocation.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-165">Defines the OfficeLocation property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressCity">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCity;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCity" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressCity" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressCity As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressCity;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-166">Define a propriedade OtherAddressCity.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-166">Defines the OtherAddressCity property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressCountryOrRegion">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCountryOrRegion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressCountryOrRegion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressCountryOrRegion" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressCountryOrRegion As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressCountryOrRegion;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-167">Define a propriedade OtherAddressCountryOrRegion.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-167">Defines the OtherAddressCountryOrRegion property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressPostalCode">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressPostalCode;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressPostalCode" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressPostalCode" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressPostalCode As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressPostalCode;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-168">Define a propriedade OtherAddressPostalCode.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-168">Defines the OtherAddressPostalCode property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressState">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressState;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressState" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressState" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressState As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressState;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-169">Define a propriedade OtherAddressState.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-169">Defines the OtherAddressState property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherAddressStreet">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressStreet;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherAddressStreet" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherAddressStreet" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherAddressStreet As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherAddressStreet;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-170">Define a propriedade OtherAddressStreet.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-170">Defines the OtherAddressStreet property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherFax">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherFax;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherFax" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherFax" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherFax As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherFax;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-171">Define a propriedade OtherFax.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-171">Defines the OtherFax property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OtherTelephone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherTelephone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition OtherTelephone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.OtherTelephone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly OtherTelephone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ OtherTelephone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-172">Define a propriedade OtherTelephone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-172">Defines the OtherTelephone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Pager">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Pager;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Pager" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Pager" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Pager As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Pager;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-173">Define a propriedade Pager.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-173">Defines the Pager property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneNumbers">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneNumbers;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneNumbers" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneNumbers" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneNumbers As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneNumbers;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-174">Define a propriedade PhoneNumbers.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-174">Defines the PhoneNumbers property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFirstName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFirstName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFirstName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneticFirstName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneticFirstName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneticFirstName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-175">Define a propriedade PhoneticFirstName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-175">Defines the PhoneticFirstName property.</span>
+          </span>
+          <span data-ttu-id="d738e-176">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-176">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticFullName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFullName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticFullName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneticFullName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneticFullName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneticFullName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-177">Define a propriedade PhoneticFullName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-177">Defines the PhoneticFullName property.</span>
+          </span>
+          <span data-ttu-id="d738e-178">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-178">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhoneticLastName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticLastName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhoneticLastName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhoneticLastName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhoneticLastName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhoneticLastName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-179">Define a propriedade PhoneticLastName.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-179">Defines the PhoneticLastName property.</span>
+          </span>
+          <span data-ttu-id="d738e-180">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-180">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Photo">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Photo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Photo" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Photo" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Photo As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Photo;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-181">Define a propriedade de foto.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-181">Defines the Photo property.</span>
+          </span>
+          <span data-ttu-id="d738e-182">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-182">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PhysicalAddresses">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PhysicalAddresses;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PhysicalAddresses" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PhysicalAddresses" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PhysicalAddresses As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PhysicalAddresses;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-183">Define a propriedade PhysicalAddresses.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-183">Defines the PhysicalAddresses property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostalAddressIndex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition PostalAddressIndex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition PostalAddressIndex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PostalAddressIndex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PostalAddressIndex As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ PostalAddressIndex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-184">Define a propriedade PostalAddressIndex.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-184">Defines the PostalAddressIndex property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimaryPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition PrimaryPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition PrimaryPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.PrimaryPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly PrimaryPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ PrimaryPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-185">Define a propriedade PrimaryPhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-185">Defines the PrimaryPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Profession">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Profession;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Profession" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Profession" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Profession As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Profession;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-186">Define a propriedade Profession.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-186">Defines the Profession property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RadioPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition RadioPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition RadioPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.RadioPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly RadioPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ RadioPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-187">Define a propriedade RadioPhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-187">Defines the RadioPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpouseName">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition SpouseName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition SpouseName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.SpouseName" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly SpouseName As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ SpouseName;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-188">Define a propriedade NomeDoCônjuge.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-188">Defines the SpouseName property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Surname">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition Surname;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition Surname" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Surname" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Surname As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ Surname;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-189">Define a propriedade sobrenome.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-189">Defines the Surname property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Telex">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Telex;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition Telex" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.Telex" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Telex As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ Telex;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-190">Define a propriedade Telex.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-190">Defines the Telex property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TtyTddPhone">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition TtyTddPhone;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition TtyTddPhone" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.TtyTddPhone" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly TtyTddPhone As IndexedPropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::IndexedPropertyDefinition ^ TtyTddPhone;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.IndexedPropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-191">Define a propriedade TtyTddPhone.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-191">Defines the TtyTddPhone property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserSMIMECertificate">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition UserSMIMECertificate;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition UserSMIMECertificate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.UserSMIMECertificate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly UserSMIMECertificate As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ UserSMIMECertificate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-192">Define a propriedade UserSMIMECertificate.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-192">Defines the UserSMIMECertificate property.</span>
+          </span>
+          <span data-ttu-id="d738e-193">Esse valor foi introduzido no Exchange Server 2010 SP2 e o Exchange Web Services (EWS) Managed API 1.2.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-193">This value was introduced in Exchange Server 2010 SP2 and the Exchange Web Services (EWS) Managed API 1.2.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WeddingAnniversary">
+      <MemberSignature Language="C#" Value="public static readonly Microsoft.Exchange.WebServices.Data.PropertyDefinition WeddingAnniversary;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Microsoft.Exchange.WebServices.Data.PropertyDefinition WeddingAnniversary" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ContactSchema.WeddingAnniversary" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly WeddingAnniversary As PropertyDefinition " />
+      <MemberSignature Language="C++ CLI" Value="public: static initonly Microsoft::Exchange::WebServices::Data::PropertyDefinition ^ WeddingAnniversary;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PropertyDefinition</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="d738e-194">Define a propriedade WeddingAnniversary.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="d738e-194">Defines the WeddingAnniversary property.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

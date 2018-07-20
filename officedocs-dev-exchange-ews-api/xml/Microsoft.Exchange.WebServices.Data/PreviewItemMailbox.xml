@@ -1,0 +1,173 @@
+<Type Name="PreviewItemMailbox" FullName="Microsoft.Exchange.WebServices.Data.PreviewItemMailbox">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9fb32ff65bd48a33d452e2a3a9a96d3a27718419" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622055" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class PreviewItemMailbox" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit PreviewItemMailbox extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class PreviewItemMailbox" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PreviewItemMailbox sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+      <span data-ttu-id="fe73b-101">Contém as informações de caixa de correio em um item de visualização.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fe73b-101">Contains the mailbox information in a preview item.</span>
+      </span>
+      <span data-ttu-id="fe73b-102">O <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+      <span class="sxs-lookup">
+        <span data-stu-id="fe73b-102">The <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+      </span>
+    </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemMailbox ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemMailbox();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+          <span data-ttu-id="fe73b-103">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> classe.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-103">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class.</span>
+          </span>
+          <span data-ttu-id="fe73b-104">O <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-104">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PreviewItemMailbox (string mailboxId, string primarySmtpAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string mailboxId, string primarySmtpAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mailboxId As String, primarySmtpAddress As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; PreviewItemMailbox(System::String ^ mailboxId, System::String ^ primarySmtpAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="mailboxId" Type="System.String" />
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mailboxId">
+          <span data-ttu-id="fe73b-105">A ID de caixa de correio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-105">The mailbox ID.</span>
+          </span>
+        </param>
+        <param name="primarySmtpAddress">
+          <span data-ttu-id="fe73b-106">O endereço SMTP principal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-106">The primary SMTP address.</span>
+          </span>
+        </param>
+        <summary>
+          <span data-ttu-id="fe73b-107">Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> classe com uma ID de caixa de correio e o endereço principal do Simple Mail Transfer Protocol (SMTP).</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-107">Initializes a new instance of the <see cref="T:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox" /> class with a mailbox ID and primary Simple Mail Transfer Protocol (SMTP) address.</span>
+          </span>
+          <span data-ttu-id="fe73b-108">O <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-108">The <see cref="M:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.#ctor(System.String,System.String)" /> constructor is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailboxId">
+      <MemberSignature Language="C#" Value="public string MailboxId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailboxId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" />
+      <MemberSignature Language="VB.NET" Value="Public Property MailboxId As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MailboxId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fe73b-109">Obtém ou define a identificação da caixa de correio do item preview.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-109">Gets or sets the ID of the preview item's mailbox.</span>
+          </span>
+          <span data-ttu-id="fe73b-110">O <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-110">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.MailboxId" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fe73b-111">A ID de caixa de correio.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-111">The mailbox ID.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrimarySmtpAddress">
+      <MemberSignature Language="C#" Value="public string PrimarySmtpAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PrimarySmtpAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrimarySmtpAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PrimarySmtpAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+          <span data-ttu-id="fe73b-112">Obtém ou define o endereço de Simple Mail Transfer Protocol (SMTP) principal da caixa de correio do item preview.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-112">Gets or sets the primary Simple Mail Transfer Protocol (SMTP) address of the preview item's mailbox.</span>
+          </span>
+          <span data-ttu-id="fe73b-113">O <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-113">The <see cref="P:Microsoft.Exchange.WebServices.Data.PreviewItemMailbox.PrimarySmtpAddress" /> property is applicable for clients that target Exchange Online and versions of Exchange starting with Exchange Server 2013.</span>
+          </span>
+        </summary>
+        <value>
+          <span data-ttu-id="fe73b-114">O endereço SMTP principal.</span>
+          <span class="sxs-lookup">
+            <span data-stu-id="fe73b-114">The primary SMTP address.</span>
+          </span>
+        </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
