@@ -1,0 +1,144 @@
+<Type Name="FreeBusyViewType" FullName="Microsoft.Exchange.WebServices.Data.FreeBusyViewType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="cd38ff1c874eedcb0966dab94a62fd62bf6df459" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621903" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum FreeBusyViewType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FreeBusyViewType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FreeBusyViewType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FreeBusyViewType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class FreeBusyViewType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Define o tipo de informações de disponibilidade retornada por uma <a href="http://go.microsoft.com/fwlink/?LinkID=163422">operação de GetUserAvailability</a></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Detailed">
+      <MemberSignature Language="C#" Value="Detailed" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType Detailed = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" />
+      <MemberSignature Language="VB.NET" Value="Detailed" />
+      <MemberSignature Language="C++ CLI" Value="Detailed" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>Representa as informações de status herdado: disponível, ocupado, provisório e OOF; os horários de início/término dos compromissos; e várias propriedades do compromisso como assunto, local e importância.
+Este modo de exibição solicitado retornará a quantidade máxima de informações para o qual o usuário solicitante é privilegiado.
+Se apenas informações de livre/ocupado mescladas estiver disponíveis, como com solicitando informações para usuários em uma floresta do Microsoft Exchange Server 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> será retornado. Caso contrário, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> ou <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> será retornado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailedMerged">
+      <MemberSignature Language="C#" Value="DetailedMerged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType DetailedMerged = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" />
+      <MemberSignature Language="VB.NET" Value="DetailedMerged" />
+      <MemberSignature Language="C++ CLI" Value="DetailedMerged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>Representa todas as propriedades no <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.Detailed" /> com um fluxo de informações de disponibilidade de livre/ocupado mesclado. Se houver apenas informações de livre/ocupado mescladas disponíveis, por exemplo, se a caixa de correio existir em um computador que está executando o Exchange 2003, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> será retornado. Caso contrário, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" /> ou <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.DetailedMerged" /> será retornado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusy">
+      <MemberSignature Language="C#" Value="FreeBusy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType FreeBusy = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" />
+      <MemberSignature Language="VB.NET" Value="FreeBusy" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Representa as informações de status herdado: livre, ocupado, provisório e ausência temporária (OOF). Isso também inclui as horas de início/término dos compromissos. Essa exibição é mais rica vez herdado de disponibilidade exibir porque individual reunião de início e término tempos são fornecidos em vez de um fluxo de livre/ocupado agregado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FreeBusyMerged">
+      <MemberSignature Language="C#" Value="FreeBusyMerged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType FreeBusyMerged = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusyMerged" />
+      <MemberSignature Language="VB.NET" Value="FreeBusyMerged" />
+      <MemberSignature Language="C++ CLI" Value="FreeBusyMerged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>Representa todas as propriedades no <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.FreeBusy" /> com um fluxo de informações de disponibilidade de livre/ocupado mesclado.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MergedOnly">
+      <MemberSignature Language="C#" Value="MergedOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType MergedOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" />
+      <MemberSignature Language="VB.NET" Value="MergedOnly" />
+      <MemberSignature Language="C++ CLI" Value="MergedOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Representa um fluxo de livre/ocupado agregado. Em cenários de entre florestas nas quais o usuário em uma floresta de destino não tem um serviço de disponibilidade configurado, o serviço de disponibilidade do solicitante recupera informações de disponibilidade do usuário de destino da pasta pública livre/ocupado. Como as pastas públicas somente armazenam informações de disponibilidade no formulário mesclado, <see cref="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.MergedOnly" /> são as informações só está disponíveis.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.FreeBusyViewType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.FreeBusyViewType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="C++ CLI" Value="None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FreeBusyViewType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Não representa a nenhuma informação de disponibilidade.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

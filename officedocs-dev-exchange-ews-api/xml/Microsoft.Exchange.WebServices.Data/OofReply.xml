@@ -1,0 +1,174 @@
+<Type Name="OofReply" FullName="Microsoft.Exchange.WebServices.Data.OofReply">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="238f06b470bfdc9cdcbbdf466eeb08b58bfa3c72" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622393" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class OofReply" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit OofReply extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.OofReply" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class OofReply" />
+  <TypeSignature Language="C++ CLI" Value="public ref class OofReply sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa um limite de mensagem do office.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OofReply ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OofReply();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> classe.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public OofReply (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; OofReply(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">A mensagem de resposta.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> classe com a mensagem especificada.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Culture">
+      <MemberSignature Language="C#" Value="public string Culture { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Culture" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofReply.Culture" />
+      <MemberSignature Language="VB.NET" Value="Public Property Culture As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Culture { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define a cultura da resposta.</summary>
+        <value>Uma cadeia de caracteres que contém a cultura da resposta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.OofReply.Message" />
+      <MemberSignature Language="VB.NET" Value="Public Property Message As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Message { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define a mensagem de resposta de ausência temporária.</summary>
+        <value>O conteúdo da mensagem de resposta de ausência temporária.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator string (Microsoft.Exchange.WebServices.Data.OofReply oofReply);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname string op_Implicit(class Microsoft.Exchange.WebServices.Data.OofReply oofReply) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.op_Implicit(Microsoft.Exchange.WebServices.Data.OofReply)~System.String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::String ^(Microsoft::Exchange::WebServices::Data::OofReply ^ oofReply);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="oofReply" Type="Microsoft.Exchange.WebServices.Data.OofReply" />
+      </Parameters>
+      <Docs>
+        <param name="oofReply">O <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> objeto para converter em uma cadeia de caracteres.</param>
+        <summary>Define uma conversão implícita entre um <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> objeto e uma cadeia de caracteres.</summary>
+        <returns>Uma cadeia de caracteres que contém a mensagem de especificado <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> objeto.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="op_Implicit">
+      <MemberSignature Language="C#" Value="public static implicit operator Microsoft.Exchange.WebServices.Data.OofReply (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class Microsoft.Exchange.WebServices.Data.OofReply op_Implicit(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.op_Implicit(System.String)~Microsoft.Exchange.WebServices.Data.OofReply" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (message As String) As OofReply" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator Microsoft::Exchange::WebServices::Data::OofReply ^(System::String ^ message);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.OofReply</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">A mensagem para converter em um <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> objeto.</param>
+        <summary>Define uma conversão implícita entre uma cadeia de caracteres e um <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> objeto.</summary>
+        <returns>Um <see cref="T:Microsoft.Exchange.WebServices.Data.OofReply" /> objeto e inicializado com a mensagem especificada.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.OofReply.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtém uma representação de cadeia de caracteres da resposta.</summary>
+        <returns>Uma cadeia de caracteres que contém a mensagem de resposta.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

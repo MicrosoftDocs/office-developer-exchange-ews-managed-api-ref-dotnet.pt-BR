@@ -1,0 +1,156 @@
+<Type Name="ServiceResponseCollection&lt;TResponse&gt;" FullName="Microsoft.Exchange.WebServices.Data.ServiceResponseCollection&lt;TResponse&gt;">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="56802682a5c94aa26340fc452518a4533195ee58" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621870" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ServiceResponseCollection&lt;TResponse&gt; : System.Collections.Generic.IEnumerable&lt;TResponse&gt; where TResponse : ServiceResponse" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ServiceResponseCollection`1&lt;(class Microsoft.Exchange.WebServices.Data.ServiceResponse) TResponse&gt; extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;!TResponse&gt;, class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceResponseCollection(Of TResponse)&#xA;Implements IEnumerable(Of TResponse)" />
+  <TypeSignature Language="C++ CLI" Value="generic &lt;typename TResponse&gt;&#xA; where TResponse : ServiceResponsepublic ref class ServiceResponseCollection sealed : System::Collections::Generic::IEnumerable&lt;TResponse&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="TResponse">
+      <Constraints>
+        <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceResponse</BaseTypeName>
+      </Constraints>
+    </TypeParameter>
+  </TypeParameters>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;TResponse&gt;</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <typeparam name="TResponse">O tipo de resposta armazenado na lista.</typeparam>
+    <summary>Representa uma lista fortemente tipada de respostas de serviço.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o número total de respostas na lista.</summary>
+        <value>Um valor inteiro que contém o número total de respostas.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;TResponse&gt; GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!TResponse&gt; GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of TResponse)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::Generic::IEnumerator&lt;TResponse&gt; ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.Generic.IEnumerable`1.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;TResponse&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtém um enumerador que itera através dos elementos da coleção.</summary>
+        <returns>Um IEnumerator da coleção.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public TResponse this[int index] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance !TResponse Item(int32)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.Item(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As TResponse" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property TResponse default[int] { TResponse get(int index); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>TResponse</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="index" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="index">O índice baseado em zero da resposta ser obtido.</param>
+        <summary>Obtém a resposta no índice especificado.</summary>
+        <value>A resposta no índice especificado.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OverallResult">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ServiceResult OverallResult { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ServiceResult OverallResult" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.OverallResult" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OverallResult As ServiceResult" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ServiceResult OverallResult { Microsoft::Exchange::WebServices::Data::ServiceResult get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ServiceResult</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém um valor indicando o resultado geral da solicitação que gerou esse conjunto de resposta.</summary>
+        <value>Um valor que indica os resultados da solicitação associado.</value>
+        <remarks>
+          <para>Se todas as respostas tem sua propriedade de resultado definida para o sucesso, o <see cref="P:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.OverallResult" /> propriedade retorna sucesso. Se pelo menos uma resposta tem sua propriedade resultado definida como aviso e todas as outras respostas têm suas propriedades de resultado definida como sucesso, o <see cref="P:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.OverallResult" /> propriedade retorna o aviso. Se pelo menos uma resposta tem seu resultado definido como erro, o <see cref="P:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.OverallResult" /> propriedade retornará um erro.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="System.Collections.IEnumerable.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.IEnumerator IEnumerable.GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator Implements IEnumerable.GetEnumerator" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::IEnumerator ^ System.Collections.IEnumerable.GetEnumerator() = System::Collections::IEnumerable::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Obtém um enumerador que itera através dos elementos da coleção.            O <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceResponseCollection`1.System#Collections#IEnumerable#GetEnumerator" /> método é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <returns>Um enumerador que itera através dos elementos da coleção.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

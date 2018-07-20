@@ -1,0 +1,389 @@
+<Type Name="ElcFolderType" FullName="Microsoft.Exchange.WebServices.Data.ElcFolderType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7f4f9f51a1283bae3f43b297ec66e159c11c222b" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621741" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum ElcFolderType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ElcFolderType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ElcFolderType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class ElcFolderType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Enumera as pastas que aceitam as políticas de gerenciamento (MRM) de registros de mensagens.             O <see cref="T:Microsoft.Exchange.WebServices.Data.ElcFolderType" /> enumeração é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType All = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="C++ CLI" Value="All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a todas as pastas que não tenham uma diretiva especificada.             O campo todos é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Calendar">
+      <MemberSignature Language="C#" Value="Calendar" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Calendar = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Calendar" />
+      <MemberSignature Language="VB.NET" Value="Calendar" />
+      <MemberSignature Language="C++ CLI" Value="Calendar" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta de calendário.             O campo Calendário é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Contacts">
+      <MemberSignature Language="C#" Value="Contacts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Contacts = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Contacts" />
+      <MemberSignature Language="VB.NET" Value="Contacts" />
+      <MemberSignature Language="C++ CLI" Value="Contacts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta Contatos.             O campo de contatos é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ConversationHistory">
+      <MemberSignature Language="C#" Value="ConversationHistory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType ConversationHistory = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.ConversationHistory" />
+      <MemberSignature Language="VB.NET" Value="ConversationHistory" />
+      <MemberSignature Language="C++ CLI" Value="ConversationHistory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta Histórico da conversa padrão. Essa pasta é usada para arquivar conversas de serviço de conferência de mensagens Instantâneas. O campo ConversationHistory é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeletedItems">
+      <MemberSignature Language="C#" Value="DeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType DeletedItems = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.DeletedItems" />
+      <MemberSignature Language="VB.NET" Value="DeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="DeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta Itens excluídos.             O campo DeletedItems é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Drafts">
+      <MemberSignature Language="C#" Value="Drafts" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Drafts = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Drafts" />
+      <MemberSignature Language="VB.NET" Value="Drafts" />
+      <MemberSignature Language="C++ CLI" Value="Drafts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta Rascunhos.             O campo rascunhos é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Inbox">
+      <MemberSignature Language="C#" Value="Inbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Inbox = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Inbox" />
+      <MemberSignature Language="VB.NET" Value="Inbox" />
+      <MemberSignature Language="C++ CLI" Value="Inbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta caixa de entrada.             O campo de caixa de entrada é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Journal">
+      <MemberSignature Language="C#" Value="Journal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Journal = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Journal" />
+      <MemberSignature Language="VB.NET" Value="Journal" />
+      <MemberSignature Language="C++ CLI" Value="Journal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta diário.             Campo do diário é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JunkEmail">
+      <MemberSignature Language="C#" Value="JunkEmail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType JunkEmail = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.JunkEmail" />
+      <MemberSignature Language="VB.NET" Value="JunkEmail" />
+      <MemberSignature Language="C++ CLI" Value="JunkEmail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta Lixo eletrônico.             O campo JunkEmail é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ManagedCustomFolder">
+      <MemberSignature Language="C#" Value="ManagedCustomFolder" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType ManagedCustomFolder = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.ManagedCustomFolder" />
+      <MemberSignature Language="VB.NET" Value="ManagedCustomFolder" />
+      <MemberSignature Language="C++ CLI" Value="ManagedCustomFolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica às pastas personalizadas gerenciadas.             O campo ManagedCustomFolder é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NonIpmRoot">
+      <MemberSignature Language="C#" Value="NonIpmRoot" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType NonIpmRoot = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.NonIpmRoot" />
+      <MemberSignature Language="VB.NET" Value="NonIpmRoot" />
+      <MemberSignature Language="C++ CLI" Value="NonIpmRoot" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta subárvore mensagens não interpessoais.             O campo NonIpmRoot é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Notes">
+      <MemberSignature Language="C#" Value="Notes" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Notes = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Notes" />
+      <MemberSignature Language="VB.NET" Value="Notes" />
+      <MemberSignature Language="C++ CLI" Value="Notes" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta anotações.             O campo anotações é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Outbox">
+      <MemberSignature Language="C#" Value="Outbox" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Outbox = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Outbox" />
+      <MemberSignature Language="VB.NET" Value="Outbox" />
+      <MemberSignature Language="C++ CLI" Value="Outbox" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta caixa de saída.             O campo de caixa de saída é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Personal">
+      <MemberSignature Language="C#" Value="Personal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Personal = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Personal" />
+      <MemberSignature Language="VB.NET" Value="Personal" />
+      <MemberSignature Language="C++ CLI" Value="Personal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pastas particulares criado pelo usuário.             O campo pessoal é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecoverableItems">
+      <MemberSignature Language="C#" Value="RecoverableItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType RecoverableItems = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.RecoverableItems" />
+      <MemberSignature Language="VB.NET" Value="RecoverableItems" />
+      <MemberSignature Language="C++ CLI" Value="RecoverableItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta itens recuperáveis.             O campo RecoverableItems é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RssSubscriptions">
+      <MemberSignature Language="C#" Value="RssSubscriptions" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType RssSubscriptions = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.RssSubscriptions" />
+      <MemberSignature Language="VB.NET" Value="RssSubscriptions" />
+      <MemberSignature Language="C++ CLI" Value="RssSubscriptions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta RSS.             O campo RssSubscriptions é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SentItems">
+      <MemberSignature Language="C#" Value="SentItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType SentItems = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.SentItems" />
+      <MemberSignature Language="VB.NET" Value="SentItems" />
+      <MemberSignature Language="C++ CLI" Value="SentItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica a pasta Itens enviados.             O campo de itens enviados é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SyncIssues">
+      <MemberSignature Language="C#" Value="SyncIssues" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType SyncIssues = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.SyncIssues" />
+      <MemberSignature Language="VB.NET" Value="SyncIssues" />
+      <MemberSignature Language="C++ CLI" Value="SyncIssues" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta padrão problemas de sincronização.             O campo SyncIssues é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tasks">
+      <MemberSignature Language="C#" Value="Tasks" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.ElcFolderType Tasks = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.ElcFolderType.Tasks" />
+      <MemberSignature Language="VB.NET" Value="Tasks" />
+      <MemberSignature Language="C++ CLI" Value="Tasks" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ElcFolderType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>A política de retenção se aplica à pasta tarefas.             O campo de tarefas é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

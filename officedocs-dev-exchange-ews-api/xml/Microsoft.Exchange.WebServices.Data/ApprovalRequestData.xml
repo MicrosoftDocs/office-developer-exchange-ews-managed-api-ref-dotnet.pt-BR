@@ -1,0 +1,135 @@
+<Type Name="ApprovalRequestData" FullName="Microsoft.Exchange.WebServices.Data.ApprovalRequestData">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="55200fe16e93878a1af4bbca705655f781471e11" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622030" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ApprovalRequestData : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ApprovalRequestData extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ApprovalRequestData&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ApprovalRequestData sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa o estado de aprovação de uma mensagem de solicitação de aprovação. O <see cref="T:Microsoft.Exchange.WebServices.Data.ApprovalRequestData" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>
+      <para>Mensagens de solicitação de aprovação são enviadas para um moderador como parte do fluxo de mensagens para destinatários moderados. Para obter mais informações, consulte <a href="http://technet.microsoft.com/en-us/library/dd297936(v=exchg.150).aspx">Transporte moderado</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ApprovalDecision">
+      <MemberSignature Language="C#" Value="public int ApprovalDecision { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ApprovalDecision" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalDecision As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int ApprovalDecision { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém a decisão de aprovação a mensagem de solicitação de aprovação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>O valor do <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> propriedade indica a decisão feita pelo moderador em uma solicitação de aprovação. A propriedade pode ter um dos valores na tabela a seguir.</para>
+          <list type="table">
+            <item>
+              <term>0</term>
+              <description>não tenha sido feita uma decisão.</description>
+            </item>
+            <item>
+              <term>1</term>
+              <description>a solicitação foi aprovada.</description>
+            </item>
+            <item>
+              <term>2</term>
+              <description>a solicitação foi rejeitada.</description>
+            </item>
+          </list>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalDecisionMaker">
+      <MemberSignature Language="C#" Value="public string ApprovalDecisionMaker { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApprovalDecisionMaker" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalDecisionMaker As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ApprovalDecisionMaker { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o nome para exibição do moderador quem aprovada ou rejeitada a solicitação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se o valor do <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> propriedade é 0, indicando que uma decisão não ainda foi feita, o valor do <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionMaker" /> propriedade será uma referência null (Nothing no Visual Basic).</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApprovalDecisionTime">
+      <MemberSignature Language="C#" Value="public DateTime ApprovalDecisionTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ApprovalDecisionTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApprovalDecisionTime As DateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime ApprovalDecisionTime { DateTime get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém a hora em que um moderador aprovada ou rejeitada a solicitação.</summary>
+        <value>To be added.</value>
+        <remarks>
+          <para>Se o valor do <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecision" /> propriedade é 0, indicando que uma decisão não ainda foi feita, o valor do <see cref="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.ApprovalDecisionTime" /> propriedade será <see cref="F:System.DateTime.MinValue" />.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUndecidedApprovalRequest">
+      <MemberSignature Language="C#" Value="public bool IsUndecidedApprovalRequest { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsUndecidedApprovalRequest" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ApprovalRequestData.IsUndecidedApprovalRequest" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUndecidedApprovalRequest As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsUndecidedApprovalRequest { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém um valor indicando se essa solicitação de aprovação está aguardando um moderador para aprovar ou rejeitar a solicitação.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,88 @@
+<Type Name="TokenValidationException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="6dcffcb64d5fd9b7c023dd930c59d169ad83f248" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622507" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class TokenValidationException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit TokenValidationException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class TokenValidationException&#xA;Inherits Exception" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TokenValidationException abstract : Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Define a classe base para todas as exceções de validação de token de identidade de cliente. O <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenValidationException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TokenValidationException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />classe. O <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenValidationException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TokenValidationException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">A mensagem que descreve a exceção.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> classe com a mensagem especificada descrevendo o erro. O <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenValidationException (string message, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TokenValidationException(System::String ^ message, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">A mensagem que descreve a exceção.</param>
+        <param name="innerException">A exceção interna que causou a exceção atual.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" /> classe com a mensagem especificada que descreve o erro e uma referência para a exceção que causou o erro. O <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException.#ctor(System.String,System.Exception)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,88 @@
+<Type Name="ServiceJsonDeserializationException" FullName="Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e709384c2eefb4646563d17df96730c69e87c60a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622392" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ServiceJsonDeserializationException : Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable sealed beforefieldinit ServiceJsonDeserializationException extends Microsoft.Exchange.WebServices.Data.ServiceLocalException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ServiceJsonDeserializationException&#xA;Inherits ServiceLocalException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ServiceJsonDeserializationException sealed : Microsoft::Exchange::WebServices::Data::ServiceLocalException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ServiceLocalException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa um erro que ocorre quando o XML a uma resposta não pode ser desserializado.             O <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceJsonDeserializationException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceJsonDeserializationException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> classe. O <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceJsonDeserializationException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceJsonDeserializationException(System::String ^ message);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">O texto da mensagem de erro.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> classe com uma mensagem de erro para a exceção.             O <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceJsonDeserializationException (string message, Exception innerException);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ServiceJsonDeserializationException(System::String ^ message, Exception ^ innerException);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="innerException" Type="System.Exception" />
+      </Parameters>
+      <Docs>
+        <param name="message">O texto da mensagem de erro.</param>
+        <param name="innerException">A exceção que causou o erro de desserialização.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException" /> classe com uma mensagem de erro e a exceção que causou o erro de desserialização.             O <see cref="M:Microsoft.Exchange.WebServices.Data.ServiceJsonDeserializationException.#ctor(System.String,System.Exception)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

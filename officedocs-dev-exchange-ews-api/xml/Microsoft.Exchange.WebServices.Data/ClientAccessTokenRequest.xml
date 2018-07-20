@@ -1,0 +1,138 @@
+<Type Name="ClientAccessTokenRequest" FullName="Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d6a9c75d2376c2efff9b0b153a9e3a59168f5afa" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622278" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ClientAccessTokenRequest : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClientAccessTokenRequest extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClientAccessTokenRequest&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ClientAccessTokenRequest : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa uma solicitação de token de acesso de cliente para um aplicativo de email para Outlook.The <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>
+      <para>O <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe é usado com o <see cref="M:Microsoft.Exchange.WebServices.Data.ExchangeService.GetClientAccessToken(Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest[])" /> método para solicitar tokens de acesso do cliente para aplicativos de email para Outlook.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientAccessTokenRequest (string id, Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.#ctor(System.String,Microsoft.Exchange.WebServices.Data.ClientAccessTokenType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, tokenType As ClientAccessTokenType)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientAccessTokenRequest(System::String ^ id, Microsoft::Exchange::WebServices::Data::ClientAccessTokenType tokenType);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="tokenType" Type="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
+      </Parameters>
+      <Docs>
+        <param name="id">O identificador de aplicativo para o aplicativo está solicitando um token de acesso do cliente.</param>
+        <param name="tokenType">O tipo de token solicitado.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe com um identificador de aplicativo e um tipo de token.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClientAccessTokenRequest (string id, Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType, string scope);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType tokenType, string scope) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.#ctor(System.String,Microsoft.Exchange.WebServices.Data.ClientAccessTokenType,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, tokenType As ClientAccessTokenType, scope As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ClientAccessTokenRequest(System::String ^ id, Microsoft::Exchange::WebServices::Data::ClientAccessTokenType tokenType, System::String ^ scope);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="tokenType" Type="Microsoft.Exchange.WebServices.Data.ClientAccessTokenType" />
+        <Parameter Name="scope" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">O identificador de aplicativo para o aplicativo está solicitando um token de acesso do cliente.</param>
+        <param name="tokenType">O tipo de token solicitado.</param>
+        <param name="scope">O escopo do token de acesso de cliente solicitada. Este parâmetro é aplicável somente se o valor do <paramref name="tokenType" /> parâmetro é <b>ClientAccessTokenType.ScopedToken</b>.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest" /> classe com um identificador de aplicativo, um tipo de token e um escopo.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o identificador de aplicativo associado a solicitação de token de acesso do cliente.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Scope">
+      <MemberSignature Language="C#" Value="public string Scope { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Scope" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.Scope" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Scope As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Scope { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o escopo de token solicitado associado com a solicitação de token de acesso do cliente.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TokenType">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.ClientAccessTokenType TokenType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ClientAccessTokenRequest.TokenType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TokenType As ClientAccessTokenType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::ClientAccessTokenType TokenType { Microsoft::Exchange::WebServices::Data::ClientAccessTokenType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.ClientAccessTokenType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o tipo solicitado de token associado a solicitação de token de acesso do cliente.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

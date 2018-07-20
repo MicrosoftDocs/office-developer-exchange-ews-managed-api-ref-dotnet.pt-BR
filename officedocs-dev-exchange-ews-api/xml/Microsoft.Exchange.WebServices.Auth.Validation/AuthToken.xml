@@ -1,0 +1,76 @@
+<Type Name="AuthToken" FullName="Microsoft.Exchange.WebServices.Auth.Validation.AuthToken">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="dc8af01bd1214d1e6ebf6ccf1c970e88abd1a5de" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622488" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public abstract class AuthToken" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit AuthToken extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class AuthToken" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AuthToken abstract" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Define a classe base para os tokens de autenticação. O <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>
+      <para>Esta classe pode ser usada em um serviço web para <a href="http://msdn.microsoft.com/en-us/library/office/fp179828.aspx">autenticar um aplicativo de email usando tokens de identidade do Exchange</a></para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected AuthToken ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; AuthToken();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> classe. O <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.#ctor" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parse">
+      <MemberSignature Language="C#" Value="public static Microsoft.Exchange.WebServices.Auth.Validation.AuthToken Parse (string token);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Exchange.WebServices.Auth.Validation.AuthToken Parse(string token) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (token As String) As AuthToken" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static Microsoft::Exchange::WebServices::Auth::Validation::AuthToken ^ Parse(System::String ^ token);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Auth.Validation.AuthToken</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="token" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="token">O token de cadeia de caracteres formatada.</param>
+        <summary>Analisa um token de identificação de cadeia de caracteres formatada nas declarações individuais presentes no token. O <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> método é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <returns>O token de autorização analisada.</returns>
+        <remarks>
+          <para>A cadeia de caracteres passada para o <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> método deve ser formatado conforme necessário pela classe descendente do <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken" /> classe. Por exemplo, o <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AuthToken.Parse(System.String)" /> método no <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> classe requer um token de base 64 codificado conforme definido no <a href="http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html">Rascunho da Internet JSON Web Token (JWT)</a></para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

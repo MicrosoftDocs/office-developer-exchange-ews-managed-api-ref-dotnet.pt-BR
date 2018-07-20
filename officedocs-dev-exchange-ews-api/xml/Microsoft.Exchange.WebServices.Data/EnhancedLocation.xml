@@ -1,0 +1,154 @@
+<Type Name="EnhancedLocation" FullName="Microsoft.Exchange.WebServices.Data.EnhancedLocation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a528f95fe26d1d44daf95c5a2f033dd34824d958" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621881" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class EnhancedLocation : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit EnhancedLocation extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class EnhancedLocation&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EnhancedLocation sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contém informações de localização avançada para um item do calendário.             O <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnhancedLocation (string displayName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (displayName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EnhancedLocation(System::String ^ displayName);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">O nome de exibição do local.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> classe usando o nome de exibição fornecido.             O <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnhancedLocation (string displayName, string annotation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName, string annotation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (displayName As String, annotation As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EnhancedLocation(System::String ^ displayName, System::String ^ annotation);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="annotation" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">O nome de exibição do local.</param>
+        <param name="annotation">A anotação no local.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> classe usando a nota de item de calendário e de nome de exibição fornecido. O <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EnhancedLocation (string displayName, string annotation, Microsoft.Exchange.WebServices.Data.PersonaPostalAddress personaPostalAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string displayName, string annotation, class Microsoft.Exchange.WebServices.Data.PersonaPostalAddress personaPostalAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.PersonaPostalAddress)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EnhancedLocation(System::String ^ displayName, System::String ^ annotation, Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ personaPostalAddress);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="displayName" Type="System.String" />
+        <Parameter Name="annotation" Type="System.String" />
+        <Parameter Name="personaPostalAddress" Type="Microsoft.Exchange.WebServices.Data.PersonaPostalAddress" />
+      </Parameters>
+      <Docs>
+        <param name="displayName">O nome de exibição do local.</param>
+        <param name="annotation">A anotação no local.</param>
+        <param name="personaPostalAddress">O endereço postal da pessoa.</param>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Data.EnhancedLocation" /> classe usando o nome de exibição fornecido, nota de item de calendário e endereço postal da pessoa.  O <see cref="M:Microsoft.Exchange.WebServices.Data.EnhancedLocation.#ctor(System.String,System.String,Microsoft.Exchange.WebServices.Data.PersonaPostalAddress)" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Annotation">
+      <MemberSignature Language="C#" Value="public string Annotation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Annotation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.Annotation" />
+      <MemberSignature Language="VB.NET" Value="Public Property Annotation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Annotation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define a nota associada a um item de calendário.             O <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.Annotation" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <value>A anotação de local.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayName">
+      <MemberSignature Language="C#" Value="public string DisplayName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DisplayName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.DisplayName" />
+      <MemberSignature Language="VB.NET" Value="Public Property DisplayName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DisplayName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define o nome de exibição associado ao item de calendário.             O <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.DisplayName" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <value>O nome de exibição do local.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PersonaPostalAddress">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PersonaPostalAddress PersonaPostalAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.PersonaPostalAddress PersonaPostalAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.PersonaPostalAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Property PersonaPostalAddress As PersonaPostalAddress" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ PersonaPostalAddress { Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ get(); void set(Microsoft::Exchange::WebServices::Data::PersonaPostalAddress ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PersonaPostalAddress</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define o endereço postal para a pessoa associada.             O <see cref="P:Microsoft.Exchange.WebServices.Data.EnhancedLocation.PersonaPostalAddress" /> propriedade é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <value>O endereço postal da pessoa.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

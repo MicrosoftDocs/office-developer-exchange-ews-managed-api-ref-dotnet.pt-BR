@@ -1,0 +1,85 @@
+<Type Name="HoldAction" FullName="Microsoft.Exchange.WebServices.Data.HoldAction">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8cf290713ec310bae44ec4b6826e88b821af02d5" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622618" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum HoldAction" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed HoldAction extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.HoldAction" />
+  <TypeSignature Language="VB.NET" Value="Public Enum HoldAction" />
+  <TypeSignature Language="C++ CLI" Value="public enum class HoldAction" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Define uma ação que afeta a preservação de itens em uma caixa de correio para fins de descoberta eletrônica.             O <see cref="T:Microsoft.Exchange.WebServices.Data.HoldAction" /> enumeração é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Create">
+      <MemberSignature Language="C#" Value="Create" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldAction Create = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldAction.Create" />
+      <MemberSignature Language="VB.NET" Value="Create" />
+      <MemberSignature Language="C++ CLI" Value="Create" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>Uma isenção iniciada as caixas de correio de destino para fins de descoberta eletrônica.             O campo Create é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="Remove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldAction Remove = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldAction.Remove" />
+      <MemberSignature Language="VB.NET" Value="Remove" />
+      <MemberSignature Language="C++ CLI" Value="Remove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>Uma versão de uma isenção que foi colocada nas caixas de correio de destino para fins de descoberta eletrônica.             O campo Remove é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="Update" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.HoldAction Update = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.HoldAction.Update" />
+      <MemberSignature Language="VB.NET" Value="Update" />
+      <MemberSignature Language="C++ CLI" Value="Update" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.HoldAction</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>Uma atualização em uma consulta associada a uma isenção nas caixas de correio de destino para fins de descoberta eletrônica.             O campo atualização é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

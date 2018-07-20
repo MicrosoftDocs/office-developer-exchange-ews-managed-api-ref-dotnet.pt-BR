@@ -1,0 +1,106 @@
+<Type Name="ImAddressDictionary" FullName="Microsoft.Exchange.WebServices.Data.ImAddressDictionary">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3f3a1830ea06e571529cc158e3b36b2dfe63c3ec" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621683" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ImAddressDictionary : Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.ImAddressKey,Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ImAddressDictionary extends Microsoft.Exchange.WebServices.Data.DictionaryProperty`2&lt;valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey, class Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ImAddressDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ImAddressDictionary&#xA;Inherits DictionaryProperty(Of ImAddressKey, ImAddressEntry)" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ImAddressDictionary sealed : Microsoft::Exchange::WebServices::Data::DictionaryProperty&lt;Microsoft::Exchange::WebServices::Data::ImAddressKey, Microsoft::Exchange::WebServices::Data::ImAddressEntry ^&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.DictionaryProperty&lt;Microsoft.Exchange.WebServices.Data.ImAddressKey,Microsoft.Exchange.WebServices.Data.ImAddressEntry&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="TKey">Microsoft.Exchange.WebServices.Data.ImAddressKey</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TEntry">Microsoft.Exchange.WebServices.Data.ImAddressEntry</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa um dicionário de instantâneas endereços de mensagens Instantâneas.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ImAddressDictionary ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImAddressDictionary.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ImAddressDictionary();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância da classe ImAddressDictionary.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public string this[Microsoft.Exchange.WebServices.Data.ImAddressKey key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Item(valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ImAddressDictionary.Item(Microsoft.Exchange.WebServices.Data.ImAddressKey)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As ImAddressKey) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ default[Microsoft::Exchange::WebServices::Data::ImAddressKey] { System::String ^ get(Microsoft::Exchange::WebServices::Data::ImAddressKey key); void set(Microsoft::Exchange::WebServices::Data::ImAddressKey key, System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.ImAddressKey" />
+      </Parameters>
+      <Docs>
+        <param name="key">A tecla que corresponde para obter ou definir o endereço de mensagens Instantâneas.</param>
+        <summary>Obtém ou define o endereço (IM) na chave especificada de mensagens instantâneas.</summary>
+        <value>O endereço de mensagens Instantâneas na chave especificada.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (Microsoft.Exchange.WebServices.Data.ImAddressKey key, out string imAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(valuetype Microsoft.Exchange.WebServices.Data.ImAddressKey key, [out] string&amp; imAddress) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ImAddressDictionary.TryGetValue(Microsoft.Exchange.WebServices.Data.ImAddressKey,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As ImAddressKey, ByRef imAddress As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(Microsoft::Exchange::WebServices::Data::ImAddressKey key, [Runtime::InteropServices::Out] System::String ^ % imAddress);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="Microsoft.Exchange.WebServices.Data.ImAddressKey" />
+        <Parameter Name="imAddress" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">A tecla que corresponde ao endereço de mensagens Instantâneas.</param>
+        <param name="imAddress">Quando esse método retorna, contém o endereço de mensagens Instantâneas que está associado com a chave especificada, se a chave for encontrada; Caso contrário, uma referência nula (Nothing no Visual Basic). Este parâmetro é passado não inicializado.</param>
+        <summary>Tenta obter o endereço (IM) que corresponde à chave especificada de mensagens instantâneas.</summary>
+        <returns>
+          <b>true</b> se o dicionário contém um endereço de mensagens Instantâneas que está associado com a chave especificada; Caso contrário, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

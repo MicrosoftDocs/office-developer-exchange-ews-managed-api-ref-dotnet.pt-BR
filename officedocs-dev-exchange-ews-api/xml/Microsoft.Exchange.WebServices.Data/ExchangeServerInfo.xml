@@ -1,0 +1,153 @@
+<Type Name="ExchangeServerInfo" FullName="Microsoft.Exchange.WebServices.Data.ExchangeServerInfo">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3514f2a3825f566b194daf22ce7f3e1cd3b0e216" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622040" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class ExchangeServerInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ExchangeServerInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ExchangeServerInfo" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExchangeServerInfo sealed" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Fornece informações sobre um servidor Exchange.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="MajorBuildNumber">
+      <MemberSignature Language="C#" Value="public int MajorBuildNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MajorBuildNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo.MajorBuildNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MajorBuildNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MajorBuildNumber { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o número de compilação principais para o Exchange server.</summary>
+        <value>Número do servidor do Exchange de compilação do principal.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MajorVersion">
+      <MemberSignature Language="C#" Value="public int MajorVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MajorVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo.MajorVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MajorVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MajorVersion { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o número de versão principal do Exchange server.</summary>
+        <value>O número de versão principal do Exchange server.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorBuildNumber">
+      <MemberSignature Language="C#" Value="public int MinorBuildNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinorBuildNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo.MinorBuildNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinorBuildNumber As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinorBuildNumber { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o número de compilação secundárias para o Exchange server.</summary>
+        <value>O menor número para o Exchange server da compilação.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinorVersion">
+      <MemberSignature Language="C#" Value="public int MinorVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MinorVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo.MinorVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MinorVersion As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int MinorVersion { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o número de versão secundária do servidor do Exchange.</summary>
+        <value>O número da versão secundária do servidor do Exchange.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ToString">
+      <MemberSignature Language="C#" Value="public override string ToString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo.ToString" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::String ^ ToString();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retorna uma string que representa o objeto ExchangeServerInfo atual.</summary>
+        <returns>A cadeia de caracteres de versão do Exchange server.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VersionString">
+      <MemberSignature Language="C#" Value="public string VersionString { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string VersionString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.ExchangeServerInfo.VersionString" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property VersionString As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ VersionString { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém a versão do Exchange.</summary>
+        <value>Uma cadeia de caracteres que contém a versão do Exchange.</value>
+        <remarks>
+          <para>A versão é uma cadeia de caracteres, em vez de uma enumeração, porque é possível para o cliente sejam conectados a uma versão posterior do Exchange que não tem um valor de enumeração associada.</para>
+          <para />
+        </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

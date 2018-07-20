@@ -1,0 +1,89 @@
+<Type Name="DeleteMode" FullName="Microsoft.Exchange.WebServices.Data.DeleteMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e957ca807d52993db7a17f7f2146841e4469df62" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622247" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum DeleteMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DeleteMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.DeleteMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DeleteMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class DeleteMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>Representa os modos de exclusão.</summary>
+    <remarks>
+      <para>Opções o MoveToDeletedItems e HardDelete são transacionais, o que significa que no momento em que uma chamada de serviço da web for concluída, o banco de dados tiver movido o item para a pasta Itens excluídos ou removido permanentemente o item do banco de dados do Exchange.</para>
+      <para>SoftDelete a opção funciona de modo diferente para as versões de destino diferente do Exchange Server. SoftDelete para o Exchange 2007 define um pouco no item que indica no banco de dados do Exchange que o item será movido para o dumpster pasta em um tempo indeterminado no futuro. SoftDelete das versões do Exchange, começando com o Exchange 2010, incluindo o Exchange Online, imediatamente move o item para o dumpster. SoftDelete não é uma opção para exclusão da pasta. Pesquisas de passagem SoftDelete para itens e pastas não retornará nenhum resultado.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HardDelete">
+      <MemberSignature Language="C#" Value="HardDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode HardDelete = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.HardDelete" />
+      <MemberSignature Language="VB.NET" Value="HardDelete" />
+      <MemberSignature Language="C++ CLI" Value="HardDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>O item ou pasta será excluída permanentemente.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MoveToDeletedItems">
+      <MemberSignature Language="C#" Value="MoveToDeletedItems" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode MoveToDeletedItems = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.MoveToDeletedItems" />
+      <MemberSignature Language="VB.NET" Value="MoveToDeletedItems" />
+      <MemberSignature Language="C++ CLI" Value="MoveToDeletedItems" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>O item ou pasta será movida para a pasta de itens excluídos da caixa de correio.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SoftDelete">
+      <MemberSignature Language="C#" Value="SoftDelete" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Exchange.WebServices.Data.DeleteMode SoftDelete = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Exchange.WebServices.Data.DeleteMode.SoftDelete" />
+      <MemberSignature Language="VB.NET" Value="SoftDelete" />
+      <MemberSignature Language="C++ CLI" Value="SoftDelete" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.DeleteMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>O item ou a pasta será movida para o dumpster. Itens e pastas do dumpster podem ser recuperados.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

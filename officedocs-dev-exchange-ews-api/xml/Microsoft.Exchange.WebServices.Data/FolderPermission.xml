@@ -1,0 +1,340 @@
+<Type Name="FolderPermission" FullName="Microsoft.Exchange.WebServices.Data.FolderPermission">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="14c2d7c0e48d1b4bf73c00467b09344ee4ba9cdd" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20621943" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class FolderPermission : Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit FolderPermission extends Microsoft.Exchange.WebServices.Data.ComplexProperty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.FolderPermission" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class FolderPermission&#xA;Inherits ComplexProperty" />
+  <TypeSignature Language="C++ CLI" Value="public ref class FolderPermission sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Representa uma permissão em uma pasta.</summary>
+    <remarks>
+      <para>Quando o direcionamento Exchange Online, Exchange Online como parte do Office 365 e a versões locais do Exchange, começando com o Exchange 2013, as permissões da pasta não são retornadas no <see cref="F:Microsoft.Exchange.WebServices.Data.PropertySet.FirstClassProperties" /> conjunto de propriedades. Para recuperar as permissões da pasta, adicione o <see cref="F:Microsoft.Exchange.WebServices.Data.FolderSchema.Permissions" /> propriedade para a propriedade definida ao ligar para a pasta.</para>
+      <para />
+    </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância da classe FolderPermission.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission (Microsoft.Exchange.WebServices.Data.StandardUser standardUser, Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.Exchange.WebServices.Data.StandardUser standardUser, valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor(Microsoft.Exchange.WebServices.Data.StandardUser,Microsoft.Exchange.WebServices.Data.FolderPermissionLevel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission(Microsoft::Exchange::WebServices::Data::StandardUser standardUser, Microsoft::Exchange::WebServices::Data::FolderPermissionLevel permissionLevel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="standardUser" Type="Microsoft.Exchange.WebServices.Data.StandardUser" />
+        <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
+      </Parameters>
+      <Docs>
+        <param name="standardUser">O usuário padrão que a permissão se aplica a.</param>
+        <param name="permissionLevel">O nível da permissão.</param>
+        <summary>Inicializa uma nova instância da classe FolderPermission para o usuário especificado, por padrão, com o nível de permissão especificado.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission (Microsoft.Exchange.WebServices.Data.UserId userId, Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Exchange.WebServices.Data.UserId userId, valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor(Microsoft.Exchange.WebServices.Data.UserId,Microsoft.Exchange.WebServices.Data.FolderPermissionLevel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission(Microsoft::Exchange::WebServices::Data::UserId ^ userId, Microsoft::Exchange::WebServices::Data::FolderPermissionLevel permissionLevel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userId" Type="Microsoft.Exchange.WebServices.Data.UserId" />
+        <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
+      </Parameters>
+      <Docs>
+        <param name="userId">A identificação do usuário a que a permissão aplica-se.</param>
+        <param name="permissionLevel">O nível da permissão.</param>
+        <summary>Inicializa uma nova instância da classe FolderPermission para o usuário especificado com o nível de permissão especificado.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FolderPermission (string primarySmtpAddress, Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string primarySmtpAddress, valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel permissionLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.FolderPermission.#ctor(System.String,Microsoft.Exchange.WebServices.Data.FolderPermissionLevel)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (primarySmtpAddress As String, permissionLevel As FolderPermissionLevel)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FolderPermission(System::String ^ primarySmtpAddress, Microsoft::Exchange::WebServices::Data::FolderPermissionLevel permissionLevel);" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="primarySmtpAddress" Type="System.String" />
+        <Parameter Name="permissionLevel" Type="Microsoft.Exchange.WebServices.Data.FolderPermissionLevel" />
+      </Parameters>
+      <Docs>
+        <param name="primarySmtpAddress">O endereço SMTP principal do usuário a permissão se aplica a.</param>
+        <param name="permissionLevel">O nível da permissão.</param>
+        <summary>Inicializa uma nova instância da classe FolderPermission para o endereço de email especificado com o nível de permissão especificado.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateItems">
+      <MemberSignature Language="C#" Value="public bool CanCreateItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.CanCreateItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateItems As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateItems { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se o usuário pode criar novos itens.</summary>
+        <value>
+          <b>true</b> se o usuário pode criar novos itens; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CanCreateSubFolders">
+      <MemberSignature Language="C#" Value="public bool CanCreateSubFolders { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool CanCreateSubFolders" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.CanCreateSubFolders" />
+      <MemberSignature Language="VB.NET" Value="Public Property CanCreateSubFolders As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool CanCreateSubFolders { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se o usuário pode criar subpastas.</summary>
+        <value>
+          <b>true</b> se o usuário pode criar novos itens; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PermissionScope DeleteItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.PermissionScope DeleteItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.DeleteItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeleteItems As PermissionScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PermissionScope DeleteItems { Microsoft::Exchange::WebServices::Data::PermissionScope get(); void set(Microsoft::Exchange::WebServices::Data::PermissionScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PermissionScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se o usuário pode excluir itens existentes.</summary>
+        <value>
+          <b>true</b> se o usuário pode excluir itens existentes; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DisplayPermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionLevel DisplayPermissionLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel DisplayPermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.DisplayPermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DisplayPermissionLevel As FolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionLevel DisplayPermissionLevel { Microsoft::Exchange::WebServices::Data::FolderPermissionLevel get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o nível de permissão que o Microsoft Outlook exibirá para esta permissão de pasta.</summary>
+        <value>O nível de permissão que o Outlook exibe para esta permissão de pasta.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.PermissionScope EditItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.PermissionScope EditItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.EditItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property EditItems As PermissionScope" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::PermissionScope EditItems { Microsoft::Exchange::WebServices::Data::PermissionScope get(); void set(Microsoft::Exchange::WebServices::Data::PermissionScope value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.PermissionScope</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se o usuário pode editar os itens existentes.</summary>
+        <value>
+          <b>true</b> se o usuário pode editar itens existentes; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderContact">
+      <MemberSignature Language="C#" Value="public bool IsFolderContact { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderContact" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.IsFolderContact" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderContact As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderContact { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se o usuário é um contato da pasta.</summary>
+        <value>
+          <b>true</b> se o usuário é um contato para a pasta; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderOwner">
+      <MemberSignature Language="C#" Value="public bool IsFolderOwner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderOwner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.IsFolderOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderOwner As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderOwner { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se o usuário possui a pasta.</summary>
+        <value>
+          <b>true</b> se o usuário possui a pasta; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFolderVisible">
+      <MemberSignature Language="C#" Value="public bool IsFolderVisible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFolderVisible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.IsFolderVisible" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFolderVisible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property bool IsFolderVisible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define um valor que indica se a pasta está visível para o usuário.</summary>
+        <value>
+          <b>true</b> se a pasta está visível; Caso contrário, <b>false</b>.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PermissionLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionLevel PermissionLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionLevel PermissionLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.PermissionLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property PermissionLevel As FolderPermissionLevel" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionLevel PermissionLevel { Microsoft::Exchange::WebServices::Data::FolderPermissionLevel get(); void set(Microsoft::Exchange::WebServices::Data::FolderPermissionLevel value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define o nível de permissão.</summary>
+        <value>O nível de permissão.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReadItems">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess ReadItems { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess ReadItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.ReadItems" />
+      <MemberSignature Language="VB.NET" Value="Public Property ReadItems As FolderPermissionReadAccess" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::FolderPermissionReadAccess ReadItems { Microsoft::Exchange::WebServices::Data::FolderPermissionReadAccess get(); void set(Microsoft::Exchange::WebServices::Data::FolderPermissionReadAccess value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.FolderPermissionReadAccess</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém ou define os itens de leitura a permissão de acesso.</summary>
+        <value>Os itens de leitura a permissão de acesso.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserId">
+      <MemberSignature Language="C#" Value="public Microsoft.Exchange.WebServices.Data.UserId UserId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Exchange.WebServices.Data.UserId UserId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.FolderPermission.UserId" />
+      <MemberSignature Language="VB.NET" Value="Public Property UserId As UserId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Exchange::WebServices::Data::UserId ^ UserId { Microsoft::Exchange::WebServices::Data::UserId ^ get(); void set(Microsoft::Exchange::WebServices::Data::UserId ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Exchange.WebServices.Data.UserId</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o identificador do que a permissão se aplica ao usuário.</summary>
+        <value>O identificador do que a permissão se aplica ao usuário.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

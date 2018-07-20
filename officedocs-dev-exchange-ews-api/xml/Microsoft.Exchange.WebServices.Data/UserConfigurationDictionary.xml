@@ -1,0 +1,284 @@
+<Type Name="UserConfigurationDictionary" FullName="Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b95d7b5132df53cc66e22f1942b95d43a347809a" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622090" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class UserConfigurationDictionary : Microsoft.Exchange.WebServices.Data.ComplexProperty, System.Collections.IEnumerable" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit UserConfigurationDictionary extends Microsoft.Exchange.WebServices.Data.ComplexProperty implements class System.Collections.IEnumerable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class UserConfigurationDictionary&#xA;Inherits ComplexProperty&#xA;Implements IEnumerable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserConfigurationDictionary sealed : Microsoft::Exchange::WebServices::Data::ComplexProperty, System::Collections::IEnumerable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Data.ComplexProperty</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.Collections.IEnumerable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>Representa uma propriedade de dicionário de configuração do usuário.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Add">
+      <MemberSignature Language="C#" Value="public void Add (object key, object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(object key, object value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.Add(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (key As Object, value As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::Object ^ key, System::Object ^ value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="key">O objeto a ser usado como a chave da entrada.</param>
+        <param name="value">O objeto a ser usado como o valor da entrada.</param>
+        <summary>Adiciona uma entrada com o valor e a chave fornecida ao dicionário de configuração do usuário.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Clear">
+      <MemberSignature Language="C#" Value="public void Clear ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.Clear" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Remove todos os itens do dicionário de configuração do usuário.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContainsKey">
+      <MemberSignature Language="C#" Value="public bool ContainsKey (object key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool ContainsKey(object key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.ContainsKey(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ContainsKey (key As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ContainsKey(System::Object ^ key);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="key">A tecla localizar no dicionário de configuração do usuário.</param>
+        <summary>Indica se o dicionário de configuração do usuário contém uma entrada com a chave especificada.</summary>
+        <returns>
+          <b>true</b> se o dicionário de configuração do usuário contém uma entrada com a chave; Caso contrário, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.Count" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Obtém o número de entradas no dicionário de configuração do usuário.</summary>
+        <value>O número de entradas.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFromJsonCollection">
+      <MemberSignature Language="C#" Value="public void CreateFromJsonCollection (object[] jsonCollection, Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CreateFromJsonCollection(object[] jsonCollection, class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CreateFromJsonCollection (jsonCollection As Object(), service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CreateFromJsonCollection(cli::array &lt;System::Object ^&gt; ^ jsonCollection, Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.IJsonCollectionDeserializer.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jsonCollection" Type="System.Object[]" />
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="jsonCollection">A coleção de JSON.</param>
+        <param name="service">Um objeto de serviço do Exchange.</param>
+        <summary>Cria o dicionário de configuração de uma coleção de objetos JavaScript Object Notation (JSON).             O <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.CreateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> método é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>Retorna um enumerador para o dicionário de configuração do usuário.</summary>
+        <returns>Um enumerador para o dicionário de configuração do usuário.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public object this[object key] { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ default[System::Object ^] { System::Object ^ get(System::Object ^ key); void set(System::Object ^ key, System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="key">A tecla de entrada.</param>
+        <summary>Obtém ou define a entrada com a chave especificada.</summary>
+        <value>A entrada com a chave especificada.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Remove">
+      <MemberSignature Language="C#" Value="public bool Remove (object key);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Remove(object key) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.Remove(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Remove (key As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool Remove(System::Object ^ key);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="key">A tecla da entrada a remover.</param>
+        <summary>Remove a entrada com a chave especificada do dicionário de configuração do usuário.</summary>
+        <returns>
+          <b>true</b> se a entrada for removida com êxito; Caso contrário, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryGetValue">
+      <MemberSignature Language="C#" Value="public bool TryGetValue (object key, out object value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetValue(object key, [out] object&amp; value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.TryGetValue(System.Object,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryGetValue (key As Object, ByRef value As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetValue(System::Object ^ key, [Runtime::InteropServices::Out] System::Object ^ % value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="key" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="key">Uma chave de entrada de dicionário de configuração de usuário.</param>
+        <param name="value">Se a chave for localizada, o valor que está associado com a chave especificada; Caso contrário, uma referência nula (Nothing no Visual Basic).</param>
+        <summary>Obtém o valor que está associado com a chave especificada.</summary>
+        <returns>
+          <b>true</b> se o dicionário de configuração do usuário contém a chave; Caso contrário, <b>false</b>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateFromJsonCollection">
+      <MemberSignature Language="C#" Value="public void UpdateFromJsonCollection (object[] jsonCollection, Microsoft.Exchange.WebServices.Data.ExchangeService service);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UpdateFromJsonCollection(object[] jsonCollection, class Microsoft.Exchange.WebServices.Data.ExchangeService service) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UpdateFromJsonCollection (jsonCollection As Object(), service As ExchangeService)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UpdateFromJsonCollection(cli::array &lt;System::Object ^&gt; ^ jsonCollection, Microsoft::Exchange::WebServices::Data::ExchangeService ^ service);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Exchange.WebServices.Data.IJsonCollectionDeserializer.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="jsonCollection" Type="System.Object[]" />
+        <Parameter Name="service" Type="Microsoft.Exchange.WebServices.Data.ExchangeService" />
+      </Parameters>
+      <Docs>
+        <param name="jsonCollection">A coleção de JSON.</param>
+        <param name="service">Um objeto de serviço do Exchange.</param>
+        <summary>Atualiza um dicionário de configuração existente por meio de uma coleção de objetos JavaScript Object Notation (JSON).             O <see cref="M:Microsoft.Exchange.WebServices.Data.UserConfigurationDictionary.UpdateFromJsonCollection(System.Object[],Microsoft.Exchange.WebServices.Data.ExchangeService)" /> método é aplicável para clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,46 @@
+<Type Name="TokenRequiresValidationException" FullName="Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9d60af193be9850ab91d3efbbd1539fb3c54e12f" />
+    <Meta Name="ms.sourcegitcommit" Value="f9542e83f8de0b81ad3168ccc4bf48004e4e2e94" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="pt-BR" />
+    <Meta Name="ms.lasthandoff" Value="07/19/2018" />
+    <Meta Name="ms.locfileid" Value="20622342" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class TokenRequiresValidationException : Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TokenRequiresValidationException extends Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" />
+  <TypeSignature Language="VB.NET" Value="Public Class TokenRequiresValidationException&#xA;Inherits TokenValidationException" />
+  <TypeSignature Language="C++ CLI" Value="public ref class TokenRequiresValidationException : Microsoft::Exchange::WebServices::Auth::Validation::TokenValidationException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.Exchange.WebServices.Auth.Validation.TokenValidationException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>Contém a exceção é acionada quando os campos de um <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken" /> instância são acessados antes do <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.AppIdentityToken.Validate(System.Uri)" /> método for chamado. O <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" /> classe é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TokenRequiresValidationException ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TokenRequiresValidationException();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Exchange.WebServices.Auth</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>Inicializa uma nova instância do <see cref="T:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException" /> classe. O <see cref="M:Microsoft.Exchange.WebServices.Auth.Validation.TokenRequiresValidationException.#ctor" /> construtor é aplicável a clientes que visam o Exchange Online e versões do Exchange, começando com o Exchange Server 2013.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
